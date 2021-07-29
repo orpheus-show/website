@@ -3,7 +3,7 @@
     display: grid;
     grid-template-areas: 
         "left right";
-    background: linear-gradient(116.34deg, var(--theme-ui-colors-sunken) 70%, var(--theme-ui-colors-primary) 0%);
+    background: linear-gradient(116.34deg, var(--theme-ui-colors-sunken) 62%, var(--theme-ui-colors-primary) 0%);
     height: 100vh;
 }
 
@@ -46,7 +46,7 @@
 
 .buttonDiv {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 15px;
     margin-top: 3rem;
     grid-template-areas: 
         "b1 b2"
@@ -55,8 +55,19 @@
 
 .btn {
     text-align: center;
-    height: 45px;
-    background-color: linear-gradient(#ff3f58, #ff8c37);;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, #ff7300 5%, #f08335 70%);
+    outline: 0;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.17), 0 17px 50px 0 rgba(0,0,0,0.11);
+    transition: 200ms ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.03);
 }
 
 @media screen and (max-width: 1025px) { 

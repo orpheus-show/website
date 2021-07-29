@@ -8,11 +8,11 @@ export default function Home () {
                 <div className={homeStyles.desc}>
                     <h1 className={homeStyles.title}>The Orpheus Show</h1>
                     <div>
-                        <h3 className={homeStyles.subtitle}>
+                        <h2 className={homeStyles.subtitle}>
                             Made by The Hack Club Podcast Team 
                             <br />
                            <code> https://feeds.transistor.fm/the-orpheus-show </code>
-                        </h3>
+                        </h2>
                     </div>
                 </div>
 
