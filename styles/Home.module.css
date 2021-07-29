@@ -1,0 +1,76 @@
+.container {
+    padding: 2rem 5rem 2rem 5rem;
+    display: grid;
+    grid-template-areas: 
+        "left right";
+    background: linear-gradient(116.34deg, var(--theme-ui-colors-sunken) 70%, var(--theme-ui-colors-primary) 0%);
+    height: 100vh;
+}
+
+.cover {
+    width: 450px;
+    height: 450px;
+    border: 4px solid rgb(184, 184, 184);
+    border-radius: 10px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    text-align: center;
+}
+
+.title {
+    font-size: 400%;
+    background: linear-gradient(45deg, #ff3f58, #ff8c37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 3rem 0rem 1rem 0rem;
+    font-weight: 900;
+}
+
+.desc {
+    display: inline-block;
+    text-align: center;
+}
+
+.channel {
+    color: blue;
+}
+
+.about {
+    margin-top: 1rem;
+}
+
+.buttonDiv {
+    display: grid;
+    grid-gap: 10px;
+    margin-top: 3rem;
+    grid-template-areas: 
+        "b1 b2"
+        "b3 b4";
+}
+
+.btn {
+    text-align: center;
+    height: 45px;
+    background-color: linear-gradient(#ff3f58, #ff8c37);;
+}
+
+@media screen and (max-width: 1025px) { 
+
+    .container {
+        padding: 1rem;
+        height: 100%;
+    }
+
+    .title {
+        font-size: 350%;
+    }
+
+    .subtitle {
+        font-size: 125%;
+    }
+}
