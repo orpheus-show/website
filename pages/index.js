@@ -1,5 +1,6 @@
 import homeStyles from '../styles/Home.module.css';
 import Cover from '../components/cover'
+import Show from '../components/show'
 export default function Home () {
     return (
         <div className={homeStyles.container}>
@@ -18,6 +19,10 @@ export default function Home () {
 
             </div>
               <Cover /> 
+
+              <br/>
+
+              <Show />
             <div className={homeStyles.right}>
         
             </div>
