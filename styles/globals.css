@@ -5,3 +5,14 @@ body {
     transition: all 0.25s;
     background-color: var(--theme-ui-colors-sunken);
 }
+
+/* unvisited link */
+a:link {
+    color: var(--theme-ui-colors-primary);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: var(--theme-ui-colors-secondary);
+  }
+  

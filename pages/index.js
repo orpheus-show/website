@@ -11,7 +11,7 @@ export default function Home () {
                         <h2 className={homeStyles.subtitle}>
                             Made by The Hack Club Podcast Team 
                             <br />
-                           <code> https://feeds.transistor.fm/the-orpheus-show </code>
+                           <code> <a href="https://feeds.transistor.fm/the-orpheus-show" > https://feeds.transistor.fm/the-orpheus-show </a> </code>
                         </h2>
                     </div>
                 </div>
@@ -34,10 +34,10 @@ export default function Home () {
             <div className={homeStyles.right}>   
                 <img src="/cover.png" className={homeStyles.cover}/>
                 <div className={homeStyles.buttonDiv}>
-                    <button className={homeStyles.btn}></button>
-                    <button className={homeStyles.btn}></button>
-                    <button className={homeStyles.btn}></button>
-                    <button className={homeStyles.btn}></button>
+                    <button className={homeStyles.btn}><a href="https://open.spotify.com/show/3q6wJccR9gjQZgOjr23PEJ">Listen Now</a></button>
+                    <button className={homeStyles.btn}><a href="https://github.com/orpheuspod/www">View the Repo</a></button>
+                    <button className={homeStyles.btn}><a href="https://hackclub.com/slack">Join the Slack</a></button>
+                    <button className={homeStyles.btn}><a href="https://devenjadhav.notion.site/The-Orpheus-Show-faa883027b5849e9af8e9d3b349d74ad">View the Notes</a></button>
                 </div>
 
             </div>
