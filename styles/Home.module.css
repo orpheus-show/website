@@ -6,6 +6,10 @@
 
 .title {
     font-size: 400%;
+    background: linear-gradient(45deg, #ec3750, #ff8c37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 3rem 0rem 1rem 0rem;
     font-weight: 900;
 }
 
