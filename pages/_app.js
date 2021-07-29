@@ -1,8 +1,9 @@
 import * as React from 'react'
 import NextApp from 'next/app'
 
-// import '@hackclub/theme/fonts/reg-bold.css'
-import theme from '@hackclub/theme'
+import globalStyles from '../styles/globals.css';
+
+import theme from '../lib/theme';
 import { ThemeProvider } from 'theme-ui'
 import ColorSwitcher from '../components/color-switcher'
 
