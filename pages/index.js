@@ -23,8 +23,16 @@ export default function Home () {
                     </h3>
                 </div>
 
+                <div className={homeStyles.show}>
+                    <h1>Who is this podcast for?</h1>
+                    <h3 className={homeStyles.subtitle}>
+                        Its made for Hack Clubbers everywhere, yet its not just for them. It's for everyone, even if you're not in Hack Club.
+                    </h3>
+                </div>
+        
             </div>
-            <div className={homeStyles.right}>         
+            <div className={homeStyles.right}>   
+                <img src="/cover.png" className={homeStyles.cover}/>
             </div>
         </div>
     );
