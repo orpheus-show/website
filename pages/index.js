@@ -1,5 +1,5 @@
 import homeStyles from '../styles/Home.module.css';
-
+import Cover from '../components/cover'
 export default function Home () {
     return (
         <div className={homeStyles.container}>
@@ -17,8 +17,9 @@ export default function Home () {
                 </div>
 
             </div>
+              <Cover /> 
             <div className={homeStyles.right}>
-            
+        
             </div>
         </div>
     );
