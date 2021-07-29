@@ -67,7 +67,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: 900;
-    color: var(--theme-ui-colors-elevated);
+    color: #ffffff;
     font-size: 1.6rem;
 }
 
@@ -75,11 +75,11 @@
     text-decoration: none;
 }
 .btn a:link {
-    color: var(--theme-ui-colors-elevated);
+    color: #ffffff;
 }
 
 .btn a:visited {
-    color: var(--theme-ui-colors-elevated);
+    color: #ffffff;
 }
 
 .btn:hover {
