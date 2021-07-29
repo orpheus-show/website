@@ -11,7 +11,7 @@ export default function Home () {
                         <h3 className={homeStyles.subtitle}>
                             Made by The Hack Club Podcast Team 
                             <br />
-                            Hosted on Transistor.fm
+                           <code> https://feeds.transistor.fm/the-orpheus-show </code>
                         </h3>
                     </div>
                 </div>
