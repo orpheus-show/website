@@ -34,10 +34,10 @@ export default function Home () {
             <div className={homeStyles.right}>   
                 <img src="/cover.png" className={homeStyles.cover}/>
                 <div className={homeStyles.buttonDiv}>
-                    <button className={homeStyles.btn}></button>
-                    <button className={homeStyles.btn}></button>
-                    <button className={homeStyles.btn}></button>
-                    <button className={homeStyles.btn}></button>
+                    <button className={homeStyles.btn}><a href="https://open.spotify.com/show/3q6wJccR9gjQZgOjr23PEJ">Listen Now</a></button>
+                    <button className={homeStyles.btn}><a href="https://github.com/orpheuspod/www">View the Repo</a></button>
+                    <button className={homeStyles.btn}><a href="https://hackclub.com/slack">Join the Slack</a></button>
+                    <button className={homeStyles.btn}><a href="https://devenjadhav.notion.site/The-Orpheus-Show-faa883027b5849e9af8e9d3b349d74ad">View the Notes</a></button>
                 </div>
 
             </div>

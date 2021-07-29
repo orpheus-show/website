@@ -62,6 +62,22 @@
     outline: 0;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.17), 0 17px 50px 0 rgba(0,0,0,0.11);
     transition: 200ms ease;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    color: var(--theme-ui-colors-elevated);
+    font-size: 1.6rem;
+}
+
+.btn a {
+    text-decoration: none;
+}
+.btn a:link {
+    color: var(--theme-ui-colors-elevated);
+}
+
+.btn a:visited {
+    color: var(--theme-ui-colors-elevated);
 }
 
 .btn:hover {
