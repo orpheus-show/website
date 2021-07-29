@@ -1,1 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800;900&display=swap');
+
+html {
+    background: linear-gradient(116.34deg, var(--theme-ui-colors-sunken) 54.25%, var(--theme-ui-colors-accent) 90%);
+}
