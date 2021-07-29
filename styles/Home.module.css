@@ -14,6 +14,14 @@
     border-radius: 10px;
 }
 
+.left {
+    width: 50%;
+}
+
+.right {
+    text-align: center;
+}
+
 .title {
     font-size: 400%;
     background: linear-gradient(45deg, #ff3f58, #ff8c37);
@@ -36,6 +44,19 @@
     margin-top: 1rem;
 }
 
+.buttonDiv {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+        "b1 b2"
+        "b3 b4";
+}
+
+.btn {
+    text-align: center;
+    height: 45px;
+    background-color: linear-gradient(#ff3f58, #ff8c37);;
+}
 
 @media screen and (max-width: 1025px) { 
 

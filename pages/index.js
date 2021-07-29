@@ -33,7 +33,15 @@ export default function Home () {
             </div>
             <div className={homeStyles.right}>   
                 <img src="/cover.png" className={homeStyles.cover}/>
+                <div className={homeStyles.buttonDiv}>
+                    <button className={homeStyles.btn}></button>
+                    <button className={homeStyles.btn}></button>
+                    <button className={homeStyles.btn}></button>
+                    <button className={homeStyles.btn}></button>
+                </div>
+
             </div>
+
         </div>
     );
 }
