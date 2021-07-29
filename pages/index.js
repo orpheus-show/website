@@ -19,7 +19,7 @@ export default function Home () {
                 <div className={homeStyles.about}>
                     <h1>About</h1>
                     <h3 className={homeStyles.subtitle}>
-                        The Orephus show is an unoffical podast made by members of the <span className={homeStyles.channel}>#podcast</span> channel. <br /> Its idea to showcase what makes Hack club so speical.
+                        The Orephus show is an unoffical podast made by members of the <span className={homeStyles.channel}>#podcast</span> channel. <br /> <br /> Our goal is to show the world what makes Hack club so speical, and inspire people by telling the stories of influential people in the community.
                     </h3>
                 </div>
 
