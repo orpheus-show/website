@@ -1,8 +1,15 @@
 
+
 .container {
-    padding: 2rem 6rem 2rem 6rem;
+    padding: 2rem 5rem 2rem 5rem;
 }
 
 .title {
     font-size: 400%;
+    font-weight: 900;
+}
+
+.desc {
+    display: inline-block;
+    text-align: center;
 }
