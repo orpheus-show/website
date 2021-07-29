@@ -34,7 +34,7 @@ export default function Home () {
             <div className={homeStyles.right}>   
                 <img src="/cover.png" className={homeStyles.cover}/>
                 <div className={homeStyles.buttonDiv}>
-                    <button className={homeStyles.btn}>test</button>
+                    <button className={homeStyles.btn}></button>
                     <button className={homeStyles.btn}></button>
                     <button className={homeStyles.btn}></button>
                     <button className={homeStyles.btn}></button>
