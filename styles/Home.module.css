@@ -8,8 +8,8 @@
 }
 
 .cover {
-    width: 450px;
-    height: 450px;
+    width: 100%;
+    height: auto;
     border: 4px solid rgb(184, 184, 184);
     border-radius: 10px;
 }
