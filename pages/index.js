@@ -22,7 +22,7 @@ export default function Home () {
                         The Orephus show is an unoffical podast made by members of the <span className={homeStyles.channel}>#podcast</span> channel. <br /> Its idea to showcase what makes Hack club so speical.
                     </h3>
                 </div>
-<br />
+
                 <div className={homeStyles.show}>
                     <h1>Who is this podcast for?</h1>
                     <h3 className={homeStyles.subtitle}>
