@@ -106,4 +106,8 @@
     .subtitle {
         font-size: 125%;
     }
+    
+    .btn {
+        height: auto;
+    }
 }
