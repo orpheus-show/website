@@ -1,6 +1,5 @@
 import homeStyles from '../styles/Home.module.css';
-import Cover from '../components/Cover'
-import Show from '../components/Show'
+
 export default function Home () {
     return (
         <div className={homeStyles.container}>
@@ -20,13 +19,12 @@ export default function Home () {
                 <div className={homeStyles.about}>
                     <h1>About</h1>
                     <h3 className={homeStyles.subtitle}>
-                        The Orephus show is an unoffical podast made by members of the #podcast Channel. <br /> Its idea to showcase what makes Hack club so speical.
+                        The Orephus show is an unoffical podast made by members of the <span className={homeStyles.channel}>#podcast</span> channel. <br /> Its idea to showcase what makes Hack club so speical.
                     </h3>
                 </div>
 
             </div>
-            <div className={homeStyles.right}>
-        
+            <div className={homeStyles.right}>         
             </div>
         </div>
     );

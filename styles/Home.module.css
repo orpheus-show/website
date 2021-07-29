@@ -1,5 +1,8 @@
 .container {
     padding: 2rem 5rem 2rem 5rem;
+    display: grid;
+    grid-template-areas: 
+        "left right";
 }
 
 .title {
@@ -14,6 +17,14 @@
 .desc {
     display: inline-block;
     text-align: center;
+}
+
+.channel {
+    color: blue;
+}
+
+.about {
+    margin-top: 1rem;
 }
 
 @media screen and (max-width: 1025px) { 
