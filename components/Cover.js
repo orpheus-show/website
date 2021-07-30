@@ -1,7 +1,18 @@
 import homeStyles from '../styles/Home.module.css';
+import { useColorMode } from "theme-ui"
 
 export default function Cover() {
+    const [mode] = useColorMode()
+    const isDark = mode === "dark"
     return (
-        <img src="/cover.png" className={homeStyles.cover}/>
+        <img 
+            src={
+                isDark
+                ? "/cover-dark.png"
+                : "/cover.png"
+            }
+
+            className={homeStyles.cover}
+        />
     );
 }
