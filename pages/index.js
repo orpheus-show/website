@@ -6,6 +6,7 @@ export default function Home () {
     return (
         <>
             <div className={homeStyles.container}>
+
                 <div className={homeStyles.left}>
                     
                     <div className={homeStyles.desc}>
@@ -46,9 +47,6 @@ export default function Home () {
                     </div>
                 </div>
 
-            </div>
-
-            <div className={homeStyles.episodes}>
             </div>
 
             <div className={homeStyles.team}>
