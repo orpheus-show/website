@@ -1,4 +1,5 @@
 import homeStyles from '../styles/Home.module.css';
+import Dropdown from '../components/dropdown';
 
 export default function Home () {
     return (
@@ -39,6 +40,8 @@ export default function Home () {
                     <button className={homeStyles.btn}><a href="https://hackclub.com/slack">Join the Slack</a></button>
                     <button className={homeStyles.btn}><a href="https://devenjadhav.notion.site/The-Orpheus-Show-faa883027b5849e9af8e9d3b349d74ad">View the Notes</a></button>
                 </div>
+
+            <Dropdown />
 
             </div>
 
