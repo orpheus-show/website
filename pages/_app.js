@@ -6,6 +6,7 @@ import globalStyles from '../styles/globals.css';
 import theme from '../lib/theme';
 import { ThemeProvider } from 'theme-ui'
 import ColorSwitcher from '../components/color-switcher'
+import Footer from '../components/Footer'
 
 export default class App extends NextApp {
   render() {
@@ -14,6 +15,7 @@ export default class App extends NextApp {
       <ThemeProvider theme={theme}>
         <ColorSwitcher />
         <Component {...pageProps} />
+        <Footer />
       </ThemeProvider>
     )
   }
