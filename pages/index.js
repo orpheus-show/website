@@ -44,7 +44,7 @@ export default function Home () {
                     <Cover />
                     <div className={homeStyles.buttonDiv}>
                         <Dropdown />
-                        <button className={homeStyles.btn button umami--click--signup-button}><a href="https://github.com/orpheuspod/www">View the Repo</a></button>
+                        <button className={homeStyles.btn} class = "button umami--click--signup-button"><a href="https://github.com/orpheuspod/www">View the Repo</a></button>
                         <button className={homeStyles.btn}><a href="https://hackclub.com/slack">Join the Slack</a></button>
                         <button className={homeStyles.btn}><a href="https://devenjadhav.notion.site/The-Orpheus-Show-faa883027b5849e9af8e9d3b349d74ad">View the Notes</a></button>
                     </div>
