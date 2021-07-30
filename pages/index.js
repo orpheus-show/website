@@ -1,7 +1,10 @@
 import homeStyles from '../styles/Home.module.css';
 import Dropdown from '../components/dropdown';
 
-import Footer from '../components/Footer'
+import Episodes from '../components/Episodes';
+import Team from '../components/Team';
+import Footer from '../components/Footer';
+
 export default function Home () {
     return (
         <>
@@ -49,10 +52,8 @@ export default function Home () {
 
             </div>
 
-            <div className={homeStyles.team}>
-
-            </div>
-
+            <Episodes />
+            <Team />
             <Footer />
             
         </>
