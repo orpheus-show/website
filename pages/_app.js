@@ -15,7 +15,6 @@ export default class App extends NextApp {
       <ThemeProvider theme={theme}>
         <ColorSwitcher />
         <Component {...pageProps} />
-        <Footer />
       </ThemeProvider>
     )
   }

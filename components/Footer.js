@@ -1,10 +1,10 @@
-import styles from '../styles/Footer.module.css';
+import footerStyles from '../styles/Footer.module.css';
 
 
 const Footer = () => {
     return (
-        <div className={styles.container}>
-            
+        <div className={footerStyles.container}>
+            <h2 className={footerStyles.title}>The Orpheus Show</h2>
         </div>
     )
 }
