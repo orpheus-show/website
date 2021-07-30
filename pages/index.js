@@ -49,13 +49,11 @@ export default function Home () {
                 </div>
             </div>
 
-            <Episodes />
+            
             <Team />
             <Footer />
 
         </>
 
-        
-    
     );
 }
