@@ -3,7 +3,7 @@
     background-color: var(--theme-ui-colors-primary);
     text-align: center;
     color: var(--theme-ui-colors-white);
-    padding: 3rem;
+    padding: 3em;
 }
 
 .title {
