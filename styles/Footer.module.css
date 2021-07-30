@@ -3,9 +3,29 @@
     background-color: var(--theme-ui-colors-primary);
     text-align: center;
     color: var(--theme-ui-colors-white);
+    padding: 3rem;
 }
 
 .title {
     margin: 0;
-    padding: 4rem;
+    padding: 1rem;
+}
+
+.social { 
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.socialItem {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(315deg) brightness(102%) contrast(102%);
+    width: 30pt;
+    height: 30pt;
+    transition: 200ms ease;
+} 
+
+.socialItem:hover {
+    transform: scale(1.2);
 }
