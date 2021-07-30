@@ -2,7 +2,10 @@ import homeStyles from '../styles/Home.module.css';
 import Episode from '../components/Episode'
 import Dropdown from '../components/dropdown';
 
-import Footer from '../components/Footer'
+import Episodes from '../components/Episodes';
+import Team from '../components/Team';
+import Footer from '../components/Footer';
+
 export default function Home () {
     return (
         <>
@@ -48,15 +51,10 @@ export default function Home () {
                 <div className={homeStyles.section}>
                     <h2>Recent episodes</h2>
 
-                    <Episode />
-                </div>
-
-                <div className={homeStyles.section}>
-                    <h2>Team</h2>
-                </div>
-                
             </div>
 
+            <Episodes />
+            <Team />
             <Footer />
 
         </>
