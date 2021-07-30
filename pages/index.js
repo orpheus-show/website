@@ -5,7 +5,7 @@ import Episode from '../components/Episode';
 import Dropdown from '../components/dropdown';
 import Team from '../components/Team';
 import Footer from '../components/Footer';
-import Meta from '../components/meta';
+
 export default function Home () {
     return (
         <>
