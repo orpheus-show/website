@@ -48,9 +48,6 @@ export default function Home () {
                         <button className={homeStyles.btn}><a href="https://devenjadhav.notion.site/The-Orpheus-Show-faa883027b5849e9af8e9d3b349d74ad">View the Notes</a></button>
                     </div>
                 </div>
-                <div className={homeStyles.section}>
-                    <h2>Recent episodes</h2>
-
             </div>
 
             <Episodes />
