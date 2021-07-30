@@ -6,7 +6,7 @@ const Footer = () => {
             <h2 className={footerStyles.title}>The Orpheus Show</h2>
             <ul className={footerStyles.social}>
                 <li>
-                    <a href="" target="_blank">
+                    <a href="https://github.com/Orpheuspod" target="_blank">
                         <img src="/github.svg" className={footerStyles.socialItem} />
                     </a>
                 </li>
