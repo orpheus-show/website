@@ -1,7 +1,8 @@
 import homeStyles from '../styles/Home.module.css';
+
+import Cover from '../components/Cover';
 import Episode from '../components/Episode';
 import Dropdown from '../components/dropdown';
-
 import Team from '../components/Team';
 import Footer from '../components/Footer';
 
@@ -39,7 +40,7 @@ export default function Home () {
         
                 </div>
                 <div className={homeStyles.right}>   
-                    <img src="/cover.png" className={homeStyles.cover}/>
+                    <Cover />
                     <div className={homeStyles.buttonDiv}>
                         <Dropdown />
                         <button className={homeStyles.btn}><a href="https://github.com/orpheuspod/www">View the Repo</a></button>
