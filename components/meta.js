@@ -5,7 +5,7 @@ export default ({
   name = 'The Orpheus Show',
   title = 'Podcaster Orpheus',
   description = 'The un-offical Podcast of Hack Club',
-  image = 'https://site-1.narulacodes.repl.co/cover.png',
+  image = 'https://podcast.hackclub.com/cover.png',
   url = 'https://yourproject.vercel.app/'
 }) => (
   <Head>
