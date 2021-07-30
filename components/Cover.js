@@ -1,7 +1,12 @@
 import homeStyles from '../styles/Home.module.css';
 
+import { useColorMode }  from 'theme-ui';
+import { useState } from 'react';
+
 export default function Cover() {
+    const [mode, setMode] = useColorMode()
+
     return (
-        <img src="/cover.png" className={homeStyles.cover}/>
+        <img src={ mode === 'light' ? "/cover.png" : "/cover-dark.png" } className={homeStyles.cover}/>
     );
 }
