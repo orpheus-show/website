@@ -1,10 +1,9 @@
-import styles from '../styles/Episode.module.css';
-
+import footerStyles from '../styles/Footer.module.css';
 
 const Footer = () => {
     return (
-        <div className={styles.instance}>
-            
+        <div className={footerStyles.container}>
+            <h2 className={footerStyles.title}>The Orpheus Show</h2>
         </div>
     )
 }
