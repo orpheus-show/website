@@ -1,4 +1,5 @@
 import homeStyles from '../styles/Home.module.css';
+import Episode from '../components/Episode'
 
 export default function Home () {
     return (
@@ -23,7 +24,7 @@ export default function Home () {
                     </h3>
                 </div>
 
-                <div className={homeStyles.show}>
+                <div className={homeStyles.about}>
                     <h2>Who is this podcast for?</h2>
                     <h3 className={homeStyles.subtitle}>
                         Its made for Hack Clubbers everywhere, yet its not just for them. It's for everyone, even if you're not in Hack Club.
@@ -39,15 +40,16 @@ export default function Home () {
                     <button className={homeStyles.btn}><a href="https://hackclub.com/slack">Join the Slack</a></button>
                     <button className={homeStyles.btn}><a href="https://devenjadhav.notion.site/The-Orpheus-Show-faa883027b5849e9af8e9d3b349d74ad">View the Notes</a></button>
                 </div>
-
             </div>
 
-            <div className={homeStyles.episodes}>
-
+            <div className={homeStyles.section}>
+                <h2>Recent episodes</h2>
+                
+                <Episode />
             </div>
 
-            <div className={homeStyles.team}>
-
+            <div className={homeStyles.section}>
+                <h2>Team</h2>
             </div>
 
             

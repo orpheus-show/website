@@ -1,7 +1,7 @@
 import styles from '../styles/Episode.module.css';
 
 
-const Footer = () => {
+const Episode = () => {
     return (
         <div className={styles.instance}>
             
@@ -9,4 +9,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Episode
