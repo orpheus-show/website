@@ -4,6 +4,7 @@ html,
 body {
     transition: all 0.25s;
     background-color: var(--theme-ui-colors-sunken);
+    height: 100%;
 }
 
 
