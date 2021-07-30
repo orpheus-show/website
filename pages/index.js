@@ -1,5 +1,5 @@
 import homeStyles from '../styles/Home.module.css';
-import Episode from '../components/Episode'
+import Episode from '../components/Episode';
 import Dropdown from '../components/dropdown';
 
 import Team from '../components/Team';
