@@ -37,8 +37,9 @@ export default function Home () {
                             The Orpheus Show is not just made for Hack Clubbers everywhere, but for everyone else too.
                         </h3>
                     </div>
-        
+
                 </div>
+                
                 <div className={homeStyles.right}>   
                     <Cover />
                     <div className={homeStyles.buttonDiv}>

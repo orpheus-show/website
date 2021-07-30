@@ -9,7 +9,7 @@
 .cover {
     width: 450px;
     height: 450px;
-    border: 4px solid rgb(184, 184, 184);
+    border: 4px solid var(--theme-ui-colors-slate);
     border-radius: 10px;
 }
 
