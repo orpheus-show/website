@@ -2,7 +2,6 @@ import homeStyles from '../styles/Home.module.css';
 import Episode from '../components/Episode'
 import Dropdown from '../components/dropdown';
 
-import Episodes from '../components/Episodes';
 import Team from '../components/Team';
 import Footer from '../components/Footer';
 
