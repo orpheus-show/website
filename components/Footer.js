@@ -1,4 +1,5 @@
 import footerStyles from '../styles/Footer.module.css';
+import Image from "next/image";
 
 const Footer = () => {
     return (
@@ -7,7 +8,7 @@ const Footer = () => {
             <ul className={footerStyles.social}>
                 <li>
                     <a href="https://github.com/Orpheuspod" target="_blank">
-                        <img alt="github logo" src="/github.svg" className={footerStyles.socialItem} />
+                        <Image width={"30pt"} height={"30pt"} alt="github logo" src="/github.svg" className={footerStyles.socialItem} />
                     </a>
                 </li>
             </ul>
