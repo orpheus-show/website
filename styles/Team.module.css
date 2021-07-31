@@ -29,6 +29,11 @@
     width: 75pt;
     height: 75pt;
     border-radius: 20px;
+    transition: 200ms ease;
+}
+
+.teamPFP:hover {
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 1025px) {
