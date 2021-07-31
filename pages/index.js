@@ -53,10 +53,7 @@ export default function Home () {
                     </div>
                 </div>
                 <Team />
-                <div className={episodeStyles.container}>
-                    <h1>Episodes</h1>
-                    <h3>Check out the latest episodes from The Orpheus Show!</h3>
-                </div>
+              
             </div>
             <Footer />
 
