@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 export default function Home () {
     return (
         <>
+
             <div className={homeStyles.container}>
                 <div className={homeStyles.landing}>
                     <div className={homeStyles.left}>
@@ -56,6 +57,5 @@ export default function Home () {
             <Footer />
 
         </>
-
     );
 }
