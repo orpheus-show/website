@@ -7,7 +7,7 @@ const Team = () => {
             <h3 className={teamStyles.subtitle}>Thanks to our amazing team members that made The Orpheus Show possible!</h3>
             <ul className={teamStyles.teamList}>
                 <li className={teamStyles.teamMember}>
-                    <a href="https://twitter.com/heyarav target="_blank">
+                    <a href="https://twitter.com/heyarav" target="_blank">
                         <img src="/team-members/arav.jfif" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
