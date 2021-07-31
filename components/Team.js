@@ -1,4 +1,5 @@
 import teamStyles from '../styles/Team.module.css';
+import Image from "next/image";
 
 const Team = () => {
     return (
@@ -8,7 +9,7 @@ const Team = () => {
             <ul className={teamStyles.teamList}>
                 <li className={teamStyles.teamMember}>
                     <a href="https://twitter.com/heyarav" target="_blank">
-                        <img alt="Arav Profile Picture" src="/team-members/arav.jfif" className={teamStyles.teamPFP}/>
+                        <Image height={75} width={75} alt="Arav Profile Picture" src="/team-members/arav.jpg" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
                         <h3 className={teamStyles.teamName}>Arav</h3>
@@ -17,7 +18,7 @@ const Team = () => {
                 </li>
                 <li className={teamStyles.teamMember}>
                     <a href="https://github.com/devenjadhav" target="_blank">
-                        <img alt="Deven Profile Picture" src="/team-members/deven.jpeg" className={teamStyles.teamPFP}/>
+                        <Image height={75} width={75} alt="Deven Profile Picture" src="/team-members/deven.jpg" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
                         <h3 className={teamStyles.teamName}>Deven</h3>
@@ -26,7 +27,7 @@ const Team = () => {
                 </li>
                 <li className={teamStyles.teamMember}>
                     <a href="https://github.com/l3gacyb3ta" target="_blank">
-                        <img alt="Arcade Profile Picture" src="/team-members/arc.jpe" className={teamStyles.teamPFP}/>
+                        <Image height={75} width={75} alt="Arcade Profile Picture" src="/team-members/arc.jpg" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
                         <h3 className={teamStyles.teamName}>Arcade</h3>
@@ -35,7 +36,7 @@ const Team = () => {
                 </li>
                 <li className={teamStyles.teamMember}>
                     <a href="https://github.com/NebuDev14" target="_blank">
-                        <img alt="Warren Profile Picture" src="/team-members/warren.png" className={teamStyles.teamPFP}/>
+                        <Image height={75} width={75} alt="Warren Profile Picture" src="/team-members/warren.png" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
                         <h3 className={teamStyles.teamName}>Warren</h3>
