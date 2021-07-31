@@ -6,6 +6,7 @@ import Episode from '../components/Episode';
 import Dropdown from '../components/dropdown';
 import Team from '../components/Team';
 import Footer from '../components/Footer';
+
 export default function Home () {
     return (
         <>
@@ -52,8 +53,10 @@ export default function Home () {
                     </div>
                 </div>
                 <Team />
-
-                                
+                <div className={episodeStyles.container}>
+                    <h1>Episodes</h1>
+                    <h3>Check out the latest episodes from The Orpheus Show!</h3>
+                </div>
             </div>
             <Footer />
 
