@@ -8,7 +8,7 @@ const Team = () => {
             <h3 className={teamStyles.subtitle}>Thanks to our amazing team members that made The Orpheus Show possible!</h3>
             <ul className={teamStyles.teamList}>
                 <li className={teamStyles.teamMember}>
-                    <a href="https://twitter.com/heyarav" target="_blank">
+                    <a rel="noreferrer" href="https://twitter.com/heyarav" target="_blank">
                         <Image height={75} width={75} alt="Arav Profile Picture" src="/team-members/arav.jpg" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
@@ -17,7 +17,7 @@ const Team = () => {
                     </div>
                 </li>
                 <li className={teamStyles.teamMember}>
-                    <a href="https://github.com/devenjadhav" target="_blank">
+                    <a rel="noreferrer" href="https://github.com/devenjadhav" target="_blank">
                         <Image height={75} width={75} alt="Deven Profile Picture" src="/team-members/deven.jpg" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
@@ -26,7 +26,7 @@ const Team = () => {
                     </div>
                 </li>
                 <li className={teamStyles.teamMember}>
-                    <a href="https://github.com/l3gacyb3ta" target="_blank">
+                    <a rel="noreferrer" href="https://github.com/l3gacyb3ta" target="_blank">
                         <Image height={75} width={75} alt="Arcade Profile Picture" src="/team-members/arc.jpg" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
@@ -35,7 +35,7 @@ const Team = () => {
                     </div>
                 </li>
                 <li className={teamStyles.teamMember}>
-                    <a href="https://github.com/NebuDev14" target="_blank">
+                    <a rel="noreferrer" href="https://github.com/NebuDev14" target="_blank">
                         <Image height={75} width={75} alt="Warren Profile Picture" src="/team-members/warren.png" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
