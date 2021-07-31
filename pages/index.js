@@ -1,4 +1,5 @@
 import homeStyles from '../styles/Home.module.css';
+import episodeStyles from '../styles/EpisodeContainer.module.css';
 
 import Cover from '../components/Cover';
 import Episode from '../components/Episode';
@@ -51,7 +52,6 @@ export default function Home () {
                         </div>
                     </div>
                 </div>
-                
                 <Team />
             </div>
             <Footer />
