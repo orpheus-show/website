@@ -15,6 +15,14 @@ const Team = () => {
                     </h3>
                 </li>
                 <li className={teamStyles.teamMember}>
+                    <img src="/team-members/deven.jpeg" className={teamStyles.teamPFP}/>
+                    <h3>
+                        Deven
+                        <br />
+                        Operations
+                    </h3>
+                </li>
+                <li className={teamStyles.teamMember}>
                     <img src="/team-members/warren.png" className={teamStyles.teamPFP}/>
                     <h3>
                         Warren
