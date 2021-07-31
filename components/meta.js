@@ -3,10 +3,10 @@ import theme from '@hackclub/theme' // or '../lib/theme'
 
 export default function Meta({
   name = 'The Orpheus Show',
-  title = 'Podcaster Orpheus',
+  title = 'The Orpheus Show',
   description = 'The un-offical Podcast of Hack Club',
   image = 'https://podcast.hackclub.com/cover.png',
-  url = 'https://yourproject.vercel.app/'
+  url = 'https://podcast.hackclub.com'
 }) {
   return (
     <Head>
