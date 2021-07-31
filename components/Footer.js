@@ -11,6 +11,7 @@ const Footer = () => {
                     </a>
                 </li>
             </ul>
+            <h3>This Website/Podcast is Lisenced in Apache-2.0, and is not affilated with HQ or endorsed by Hack Club.</h3>
         </div>
     )
 }
