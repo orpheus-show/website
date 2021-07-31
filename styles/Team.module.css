@@ -15,6 +15,12 @@
     padding: 0;
 }
 
+@media screen and (max-width: 1025px) {
+    .teamList {
+        justify-content: center;
+    }
+}
+
 .teamMember {
     display: grid;
     grid-template-areas: 
