@@ -6,10 +6,10 @@ import Episode from '../components/Episode';
 import Dropdown from '../components/dropdown';
 import Team from '../components/Team';
 import Footer from '../components/Footer';
-
 import axios from 'axios';
 
 export default function Home (props) {
+
     return (
         <div>
             <div className={homeStyles.container}>
@@ -65,10 +65,18 @@ export default function Home (props) {
 }
 
 export const getStaticProps = async() => {
-    const test = "yasdf";
+    var token;
+    await (async() => {
+        const getToken = await axios({
+            method: 'GET',
+            url: 'http://localhost:3000/api/server'
+        });
+        token = getToken.data;
+    })();
+    
     return {
         props: {
-            test
+            token
         }
     }
 }
