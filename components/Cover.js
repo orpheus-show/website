@@ -27,6 +27,12 @@ export default function Cover() {
                 : lightmodeblur
             }
 
+            alt = {
+                isDark
+                ? "Dark mode cover"
+                : "Light mode cover"
+            }
+
             placeholder="blur"
             
             className={homeStyles.cover}

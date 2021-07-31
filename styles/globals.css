@@ -1,27 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800;900&display=swap');
-
-html,
-body {
-    transition: all 0.25s;
-    background-color: var(--theme-ui-colors-sunken);
-    height: 100%;
+html, body {
+  transition: all 0.25s;
+  background-color: var(--theme-ui-colors-sunken);
+  height: 100%;
 }
 
 h2 {
   font-size: 2rem;
 }
-  
-  /* visited link */
-  a:visited {
-    color: var(--theme-ui-colors-secondary);
-  }
-  
+
+/* visited link */
+
+a:visited {
+  color: var(--theme-ui-colors-secondary);
+}
 
 ::-webkit-scrollbar {
-    width: 4px;
-    background-color: var(--theme-ui-colors-primary);
+  width: 4px;
+  background-color: var(--theme-ui-colors-primary);
 }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #fff;
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
 }
