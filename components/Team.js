@@ -8,7 +8,7 @@ const Team = () => {
             <ul className={teamStyles.teamList}>
                 <li className={teamStyles.teamMember}>
                     <a href="https://twitter.com/heyarav" target="_blank">
-                        <img src="/team-members/arav.jfif" className={teamStyles.teamPFP}/>
+                        <img alt="Arav Profile Picture" src="/team-members/arav.jfif" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
                         <h3 className={teamStyles.teamName}>Arav</h3>
@@ -17,7 +17,7 @@ const Team = () => {
                 </li>
                 <li className={teamStyles.teamMember}>
                     <a href="https://github.com/devenjadhav" target="_blank">
-                        <img src="/team-members/deven.jpeg" className={teamStyles.teamPFP}/>
+                        <img alt="Deven Profile Picture" src="/team-members/deven.jpeg" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
                         <h3 className={teamStyles.teamName}>Deven</h3>
@@ -26,7 +26,7 @@ const Team = () => {
                 </li>
                 <li className={teamStyles.teamMember}>
                     <a href="https://github.com/l3gacyb3ta" target="_blank">
-                        <img src="/team-members/arc.jpe" className={teamStyles.teamPFP}/>
+                        <img alt="Arcade Profile Picture" src="/team-members/arc.jpe" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
                         <h3 className={teamStyles.teamName}>Arcade</h3>
@@ -35,7 +35,7 @@ const Team = () => {
                 </li>
                 <li className={teamStyles.teamMember}>
                     <a href="https://github.com/NebuDev14" target="_blank">
-                        <img src="/team-members/warren.png" className={teamStyles.teamPFP}/>
+                        <img alt="Warren Profile Picture" src="/team-members/warren.png" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
                         <h3 className={teamStyles.teamName}>Warren</h3>

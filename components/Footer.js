@@ -7,7 +7,7 @@ const Footer = () => {
             <ul className={footerStyles.social}>
                 <li>
                     <a href="https://github.com/Orpheuspod" target="_blank">
-                        <img src="/github.svg" className={footerStyles.socialItem} />
+                        <img alt="github logo" src="/github.svg" className={footerStyles.socialItem} />
                     </a>
                 </li>
             </ul>
