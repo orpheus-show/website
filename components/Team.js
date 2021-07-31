@@ -8,33 +8,30 @@ const Team = () => {
             <ul className={teamStyles.teamList}>
                 <li className={teamStyles.teamMember}>
                     <img src="/team-members/arav.jfif" className={teamStyles.teamPFP}/>
-                    <h3>
-                        Arav
-                        <br />
-                        Host
-                    </h3>
+                    <div className={teamStyles.info}>
+                        <h3 className={teamStyles.teamName}>Arav</h3>
+                        <h4 className={teamStyles.teamDesc}>Host</h4>
+                    </div>
                 </li>
                 <li className={teamStyles.teamMember}>
                     <img src="/team-members/deven.jpeg" className={teamStyles.teamPFP}/>
-                    <h3>
-                        Deven
-                        <br />
-                        Operations
-                    </h3>
+                    <div className={teamStyles.info}>
+                        <h3 className={teamStyles.teamName}>Deven</h3>
+                        <h4 className={teamStyles.teamDesc}>Operations</h4>
+                    </div>
                 </li>
                 <li className={teamStyles.teamMember}>
                     <img src="/team-members/arc.jpe" className={teamStyles.teamPFP}/>
-                    <h3>
-                        Arcade
-                        <br />
-                        Design, Developer
-                    </h3>
+                    <div className={teamStyles.info}>
+                        <h3 className={teamStyles.teamName}>Arcade</h3>
+                        <h4 className={teamStyles.teamDesc}>Development</h4>
+                    </div>
                 </li>
                 <li className={teamStyles.teamMember}>
                     <img src="/team-members/warren.png" className={teamStyles.teamPFP}/>
-                    <div>
+                    <div className={teamStyles.info}>
                         <h3 className={teamStyles.teamName}>Warren</h3>
-                        <h4 className={teamStyles.teamDesc}>Developer</h4>
+                        <h4 className={teamStyles.teamDesc}>Development</h4>
                     </div>
                 </li>
             </ul>

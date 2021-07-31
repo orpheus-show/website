@@ -18,6 +18,7 @@
 .teamMember {
     display: grid;
     grid-template-areas: 
+        "name"
         "pfp"
         "desc";
     text-align: center;
