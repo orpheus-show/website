@@ -2,6 +2,10 @@
     margin-top: 3rem;
 }
 
+.subtitle {
+    margin-bottom: 2rem;
+}
+
 .teamList {
     display: flex;
     list-style: none;
@@ -17,6 +21,7 @@
         "pfp"
         "desc";
     text-align: center;
+    margin: 0 2rem 0 2rem;
 }
 
 .teamPFP {
