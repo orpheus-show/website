@@ -8,6 +8,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    padding: 0;
 }
 
 .teamMember {
@@ -15,4 +16,11 @@
     grid-template-areas: 
         "pfp"
         "desc";
+    text-align: center;
+}
+
+.teamPFP {
+    width: 75pt;
+    height: 75pt;
+    border-radius: 20px;
 }
