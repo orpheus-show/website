@@ -1,3 +1,7 @@
+.container {
+    display: flex;
+}
+
 .instance {
     border-radius: 8px;
 }

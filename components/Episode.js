@@ -1,8 +1,12 @@
-import styles from '../styles/Episode.module.css';
+import episodeStyles from '../styles/Episode.module.css';
 
 const Episode = () => {
     return (  
-        <div className={styles.instance}>
+        <div className={episodeStyles.container}>
+            <img src="" className={episodeStyles.episodePFP}/>
+            <div className={episodeStyles.info}>
+                
+            </div>
         </div>
     )
 }
