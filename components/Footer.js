@@ -11,8 +11,9 @@ const Footer = () => {
                     </a>
                 </li>
             </ul>
-            <h3>This Website/Podcast is Lisenced in Apache-2.0, and is not affilated with HQ or endorsed by Hack Club.</h3>
+            <h3>This Website/Podcast is Lisenced in Apache-2.0, and is not affilated with Hack Club or endorsed by Hack Club.</h3>
             <h4>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" target="_blank">Dave Gandy</a> from <a href="https://www.flaticon.com/">Flaticon</a></h4>
+            
         </div>
     )
 }
