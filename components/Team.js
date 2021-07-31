@@ -23,12 +23,19 @@ const Team = () => {
                     </h3>
                 </li>
                 <li className={teamStyles.teamMember}>
-                    <img src="/team-members/warren.png" className={teamStyles.teamPFP}/>
+                    <img src="/team-members/arc.jpe" className={teamStyles.teamPFP}/>
                     <h3>
-                        Warren
+                        Arcade
                         <br />
-                        Developer
+                        Design, Developer
                     </h3>
+                </li>
+                <li className={teamStyles.teamMember}>
+                    <img src="/team-members/warren.png" className={teamStyles.teamPFP}/>
+                    <div>
+                        <h3 className={teamStyles.teamName}>Warren</h3>
+                        <h4 className={teamStyles.teamDesc}>Developer</h4>
+                    </div>
                 </li>
             </ul>
         </div>
