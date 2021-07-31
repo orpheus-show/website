@@ -5,6 +5,6 @@ export default function handler(req, res) {
         res.status(200).json({ key: process.env.SPOTIFY_TOKEN });
     }
     else {
-        res.status(400)
+        res.status(400);
     }
 }

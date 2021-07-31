@@ -7,6 +7,8 @@ import Dropdown from '../components/dropdown';
 import Team from '../components/Team';
 import Footer from '../components/Footer';
 
+import axios from 'axios';
+
 export default function Home (props) {
     return (
         <div>
