@@ -21,3 +21,12 @@ a:link {
     color: var(--theme-ui-colors-secondary);
   }
   
+
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: var(--theme-ui-colors-primary);
+}
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #fff;
+}
