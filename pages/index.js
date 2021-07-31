@@ -6,7 +6,6 @@ import Episode from '../components/Episode';
 import Dropdown from '../components/dropdown';
 import Team from '../components/Team';
 import Footer from '../components/Footer';
-
 export default function Home () {
     return (
         <>
@@ -53,7 +52,8 @@ export default function Home () {
                     </div>
                 </div>
                 <Team />
-              
+              <Episode />
+                                
             </div>
             <Footer />
 
