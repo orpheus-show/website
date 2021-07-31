@@ -6,6 +6,14 @@
     padding: 3em;
 }
 
+.container a:link {
+    color: #ffffff;
+}
+
+.container a:visited {
+    color: #ffffff;
+}
+
 .title {
     margin: 0;
     padding: 1rem;
