@@ -1,3 +1,18 @@
 .container {
     margin-top: 3rem;
 }
+
+.teamList {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.teamMember {
+    display: grid;
+    grid-template-areas: 
+        "pfp"
+        "desc";
+}
