@@ -16,4 +16,4 @@ const Episode = ({details}) => {
     )
 }
 
-export default Episode
+export default Episode;

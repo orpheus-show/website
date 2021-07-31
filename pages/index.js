@@ -7,14 +7,13 @@ import Dropdown from '../components/dropdown';
 import Team from '../components/Team';
 import Footer from '../components/Footer';
 
-export default function Home () {
+export default function Home (props) {
     return (
-        <>
-
+        <div>
             <div className={homeStyles.container}>
                 <div className={homeStyles.landing}>
                     <div className={homeStyles.left}>
-                        
+                
                         <div className={homeStyles.desc}>
                             <h1 className={homeStyles.title}>The Orpheus Show</h1>
                             <div>
@@ -25,7 +24,6 @@ export default function Home () {
                                 </h2>
                             </div>
                         </div>
-
                         <div className={homeStyles.about}>
                             <h2>About</h2>
                             <h3 className={homeStyles.subtitle}>
@@ -59,7 +57,16 @@ export default function Home () {
                 </div>
             </div>
             <Footer />
-
-        </>
+            
+        </div>
     );
+}
+
+export const getStaticProps = async() => {
+    const test = "yasdf";
+    return {
+        props: {
+            test
+        }
+    }
 }
