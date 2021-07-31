@@ -52,7 +52,7 @@ export default function Home () {
                     </div>
                 </div>
                 <Team />
-              <Episode />
+
                                 
             </div>
             <Footer />
