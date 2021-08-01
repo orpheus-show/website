@@ -89,20 +89,23 @@ export const getStaticProps = async() => {
         c_id = getToken.data.key.id;
         c_secret = getToken.data.key.secret;
     })();
-    
-    var spotify = new Spotify({
-        id: c_id,
-        secret: c_secret
-    });
 
-    spotify
-        .request('https://api.spotify.com/v1/shows/3q6wJccR9gjQZgOjr23PEJ')
-        .then(function(data) {
-            console.log(data);
-        })
-        .catch(function(err) {
-            console.log("Error: " + err);
-        });
+    console.log(c_id);
+    console.log(c_secret);
+
+    // var spotify = new Spotify({
+    //     id: c_id,
+    //     secret: c_secret
+    // });
+
+    // spotify
+    //     .request('https://api.spotify.com/v1/shows/3q6wJccR9gjQZgOjr23PEJ')
+    //     .then(function(data) {
+    //         console.log(data);
+    //     })
+    //     .catch(function(err) {
+    //         console.log("Error: " + err);
+    //     });
 
     var podcastData = "";
 
