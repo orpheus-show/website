@@ -23,8 +23,8 @@ const Footer = () => {
                 </li>
 
             </ul>
-            <h3>This Website/Podcast is Lisenced in<a rel="noreferrer" href="https://github.com/Orpheuspod/site/blob/main/LICENSE.md" target="_blank"> Apache-2.0 </a>, and is not affilated with Hack Club or endorsed by Hack Club.</h3>
-            <h4>Icons Credit to <a rel="noreferrer" href="https://supercons.vercel.app/" target="_blank">Supercons</a> </h4>
+            <h3>The Orpheus Show and its website are open source with the <a rel="noreferrer" href="https://github.com/Orpheuspod/site/blob/main/LICENSE.md" target="_blank">Apache License 2.0</a>. The Show is not affilated with or endorsed by Hack Club.</h3>
+            <h4>Special thanks to <a rel="noreferrer" href="https://supercons.vercel.app/" target="_blank">Supercons</a> for the amazing icons!</h4>
            
     
    
