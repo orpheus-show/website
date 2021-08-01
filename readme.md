@@ -24,3 +24,5 @@ Powered by [Next.js] with [Theme UI] & [Hack Club Theme].
 [next.js]: https://nextjs.org
 [theme ui]: https://theme-ui.com
 [hack club theme]: https://theme.hackclub.com
+
+P.S. This podcast is neither related to, nor affiliated with the Hack Club HQ.
