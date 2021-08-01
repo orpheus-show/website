@@ -40,6 +40,10 @@
     text-align: center;
 }
 
+.subtitle {
+    font-weight: 500;
+}
+
 .channel {
     color: blue;
 }

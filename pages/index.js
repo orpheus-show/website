@@ -79,17 +79,26 @@ export const getStaticProps = async() => {
     await (async() => {
         const getToken = await axios({
             method: 'GET',
-            url: 'https://podcast.hackclub.com/api/server' // https://podcast.hackclub.com/api/server, http://localhost:3000/api/server 
+            url: 'http://localhost:3000/api/server' // https://podcast.hackclub.com/api/server, http://localhost:3000/api/server 
         });
-        c_id = getToken.data.id;
-        c_secret = getToken.data.secret;
+        c_id = getToken.data.key.id;
+        c_secret = getToken.data.key.secret;
     })();
     
-    // var spotify = new Spotify({
-    //     id: c_id,
-    //     secret: c_secret
-    // });
+    var spotify = new Spotify({
+        id: c_id,
+        secret: c_secret
+    });
 
+    spotify
+        .request('https://api.spotify.com/v1/shows/3q6wJccR9gjQZgOjr23PEJ')
+        .then(function(data) {
+            console.log(data);
+        })
+        .catch(function(err) {
+            console.log("Error: " + err);
+        });
+        
     var podcastData = "";
 
 
