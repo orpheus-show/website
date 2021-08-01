@@ -3,8 +3,13 @@ import episodeStyles from '../styles/EpisodeContainer.module.css';
 
 import Cover from '../components/Cover';
 import Episode from '../components/Episode';
-import Notes from '../components/notesdrop';
-import Dropdown from '../components/dropdown';
+
+// buttons
+import ListenNow from '../components/buttons/ListenNow';
+import Notes from '../components/buttons/ViewNotes';
+import Slack from '../components/buttons/Slack'
+import Repo from '../components/buttons/Repo'
+
 import Team from '../components/Team';
 import Footer from '../components/Footer';
 
@@ -46,10 +51,10 @@ export default function Home (props) {
                     <div className={homeStyles.right}>   
                         <Cover />
                         <div className={homeStyles.buttonDiv}>
-                            <Dropdown />
-                            <button className={homeStyles.btn} class = "button umami--click--signup-button"><a href="https://github.com/orpheuspod/www" target="_blank">View the Repo</a></button>
-                            <button className={homeStyles.btn}><a href="https://hackclub.com/slack" target="_blank">Join the Slack</a></button>
-                           <Notes />
+                            <ListenNow />
+                            <Repo />
+                            <Slack /> 
+                            <Notes />
                         </div>
                     </div>
                 </div>
