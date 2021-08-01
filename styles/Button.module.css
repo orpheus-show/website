@@ -58,6 +58,7 @@
     width: 100%;
     text-decoration: none;
     border-radius: 0.5rem;
+    transition: ease 500ms;
 }
 
 .div a:hover {
