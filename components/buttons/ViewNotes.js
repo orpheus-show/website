@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from '../../styles/Button.module.css'
 
 
-export default function Notes() {
+export default function ViewNotes() {
     const [showMe, setShowMe] = useState(false);
     function toggle() {
         setShowMe(!showMe);
