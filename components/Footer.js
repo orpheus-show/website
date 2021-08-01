@@ -1,6 +1,6 @@
 import footerStyles from '../styles/Footer.module.css';
 import Image from "next/image";
-
+import Icon from 'supercons'
 const Footer = () => {
     return (
         <div className={footerStyles.container}>
