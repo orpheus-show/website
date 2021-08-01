@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from '../styles/Button.module.css'
+import styles from '../../styles/Button.module.css'
 
 
 export default function Dropdown() {
@@ -20,7 +20,7 @@ export default function Dropdown() {
                 <a rel="noreferrer" onClick={toggle} target="_blank" href="https://open.spotify.com/show/3q6wJccR9gjQZgOjr23PEJ">Spotify</a>
                 <hr />
                 <a rel="noreferrer" onClick={toggle} target="_blank" href="https://www.youtube.com/channel/UCTES1rgjcKBjSUSJRpyLPzA">Youtube Channel</a>
-              <hr />
+                <hr />
                 {/*<a rel="noreferrer" onClick={toggle}>Apple Podcasts</a>*/}
                 <a rel="noreferrer" onClick={toggle} target="_blank" href="https://music.amazon.com/podcasts/78453879-9d50-4a49-a11e-436f9cb277a2/the-orpheus-show">Amazon Music</a>
                 <hr />
