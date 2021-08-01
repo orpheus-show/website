@@ -3,6 +3,7 @@ import episodeStyles from '../styles/EpisodeContainer.module.css';
 
 import Cover from '../components/Cover';
 import Episode from '../components/Episode';
+import Notes from '../components/notesdrop';
 import Dropdown from '../components/dropdown';
 import Team from '../components/Team';
 import Footer from '../components/Footer';
@@ -47,7 +48,7 @@ export default function Home (props) {
                             <Dropdown />
                             <button className={homeStyles.btn} class = "button umami--click--signup-button"><a href="https://github.com/orpheuspod/www" target="_blank">View the Repo</a></button>
                             <button className={homeStyles.btn}><a href="https://hackclub.com/slack" target="_blank">Join the Slack</a></button>
-                            <button className={homeStyles.btn}><a href="https://devenjadhav.notion.site/The-Orpheus-Show-faa883027b5849e9af8e9d3b349d74ad" target="_blank">View the Notes</a></button>
+                           <Notes />
                         </div>
                     </div>
                 </div>
