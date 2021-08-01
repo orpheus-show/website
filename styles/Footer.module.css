@@ -41,10 +41,10 @@
     transition: 200ms ease;
 } 
 
-.socialItem:hover {
-    transform: scale(1.2);
-}
+.icons:hover {
 
+        transform: scale(1.2);
+}
 @media screen and (max-width: 1025px) {
     .title {
         padding: 0;
