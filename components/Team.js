@@ -1,11 +1,13 @@
 import teamStyles from '../styles/Team.module.css';
+import homeStyles from '../styles/Home.module.css';
+
 import Image from "next/image";
 
 const Team = () => {
     return (
         <div className={teamStyles.container}>
             <h1>Team</h1>
-            <h3 className={teamStyles.subtitle}>Thanks to our amazing team members that made The Orpheus Show possible!</h3>
+            <h3 className={homeStyles.subtitle}>Thanks to our amazing team members that made The Orpheus Show possible!</h3>
             <ul className={teamStyles.teamList}>
                 <li className={teamStyles.teamMember}>
                     <a rel="noreferrer" href="https://twitter.com/heyarav" target="_blank">

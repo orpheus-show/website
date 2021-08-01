@@ -64,7 +64,7 @@ export default function Home (props) {
 
                     <div className={episodeStyles.container}>
                         <h1>Episodes</h1>
-                        <h3>Check out the latest episodes from The Orpheus Show!</h3>
+                        <h3 className={homeStyles.subtitle}>Check out the latest episodes from The Orpheus Show!</h3>
                     </div>
 
                 </div>
@@ -76,40 +76,40 @@ export default function Home (props) {
     );
 }
 
-// export const getStaticProps = async() => {
-//     var Spotify = require('node-spotify-api');
+export const getStaticProps = async() => {
+    var Spotify = require('node-spotify-api');
 
-//     var c_id;
-//     var c_secret;
-//     await (async() => {
-//         const getToken = await axios({
-//             method: 'GET',
-//             url: 'http://localhost:3000/api/server' // https://podcast.hackclub.com/api/server, http://localhost:3000/api/server 
-//         });
-//         c_id = getToken.data.key.id;
-//         c_secret = getToken.data.key.secret;
-//     })();
+    var c_id;
+    var c_secret;
+    await (async() => {
+        const getToken = await axios({
+            method: 'GET',
+            url: 'http://localhost:3000/api/server' // https://podcast.hackclub.com/api/server, http://localhost:3000/api/server 
+        });
+        c_id = getToken.data.key.id;
+        c_secret = getToken.data.key.secret;
+    })();
     
-//     var spotify = new Spotify({
-//         id: c_id,
-//         secret: c_secret
-//     });
+    var spotify = new Spotify({
+        id: c_id,
+        secret: c_secret
+    });
 
-//     spotify
-//         .request('https://api.spotify.com/v1/shows/3q6wJccR9gjQZgOjr23PEJ')
-//         .then(function(data) {
-//             console.log(data);
-//         })
-//         .catch(function(err) {
-//             console.log("Error: " + err);
-//         });
+    spotify
+        .request('https://api.spotify.com/v1/shows/3q6wJccR9gjQZgOjr23PEJ')
+        .then(function(data) {
+            console.log(data);
+        })
+        .catch(function(err) {
+            console.log("Error: " + err);
+        });
 
-//     var podcastData = "";
+    var podcastData = "";
 
 
-//     return {
-//         props: {
-//             podcastData
-//         }
-//     }
-// }
+    return {
+        props: {
+            podcastData
+        }
+    }
+}
