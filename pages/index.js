@@ -74,21 +74,28 @@ export default function Home (props) {
 export const getStaticProps = async() => {
     var Spotify = require('node-spotify-api');
 
-    var token;
+    var c_id;
+    var c_secret;
     await (async() => {
         const getToken = await axios({
             method: 'GET',
             url: 'https://podcast.hackclub.com/api/server'
         });
-        token = getToken.data;
+        c_id = getToken.data.id;
+        c_secret = getToken.data.secret;
     })();
     
+    var spotify = new Spotify({
+        id: c_id,
+        secret: c_secret
+    });
+
     var podcastData;
 
 
     return {
         props: {
-            token
+            podcastData
         }
     }
 }
