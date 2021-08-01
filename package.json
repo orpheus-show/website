@@ -16,6 +16,7 @@
     "@next/mdx": "^10.0.4",
     "axios": "^0.21.1",
     "dotenv": "^10.0.0",
+    "dotenv-webpack": "^7.0.3",
     "next": "^11.0.1",
     "node-spotify-api": "^1.1.1",
     "react": "^17.0.2",
