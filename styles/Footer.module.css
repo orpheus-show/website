@@ -42,8 +42,7 @@
 } 
 
 .icons:hover {
-
-        transform: scale(1.2);
+    transform: scale(1.05);
 }
 @media screen and (max-width: 1025px) {
     .title {
