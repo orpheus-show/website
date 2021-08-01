@@ -42,15 +42,15 @@ const Team = () => {
                         <h3 className={teamStyles.teamName}>Warren</h3>
                         <h4 className={teamStyles.teamDesc}>Development</h4>
                     </div>
-                      <li className={teamStyles.teamMember}>
-                    <a rel="noreferrer" href="https://github.com/l3gacyb3ta" target="_blank">
-                        <Image height={75} width={75} alt="Arash Profile Picture" src="/componets/placeholder.png" className={teamStyles.teamPFP}/>
+                </li>
+                <li className={teamStyles.teamMember}>
+                    <a rel="noreferrer" href="https://github.com/arashnrim" target="_blank">
+                        <Image height={75} width={75} alt="Arash Profile Picture" src="/team-members/placeholder.png" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
                         <h3 className={teamStyles.teamName}>Arash</h3>
                         <h4 className={teamStyles.teamDesc}>Development</h4>
                     </div>
-                </li>
                 </li>
             </ul>
         </div>
