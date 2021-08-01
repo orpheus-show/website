@@ -85,10 +85,10 @@ export const getStaticProps = async() => {
         c_secret = getToken.data.secret;
     })();
     
-    var spotify = new Spotify({
-        id: c_id,
-        secret: c_secret
-    });
+    // var spotify = new Spotify({
+    //     id: c_id,
+    //     secret: c_secret
+    // });
 
     var podcastData = "";
 
