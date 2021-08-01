@@ -1,6 +1,6 @@
 import homeStyles from '../styles/Home.module.css';
 import episodeStyles from '../styles/EpisodeContainer.module.css';
-import Icon from 'supercons'
+
 import Cover from '../components/Cover';
 import Episode from '../components/Episode';
 import Dropdown from '../components/dropdown';
