@@ -7,6 +7,7 @@ import Notes from '../components/notesdrop';
 import Dropdown from '../components/dropdown';
 import Team from '../components/Team';
 import Footer from '../components/Footer';
+
 import axios from 'axios';
 
 export default function Home (props) {
@@ -71,6 +72,8 @@ export default function Home (props) {
 }
 
 export const getStaticProps = async() => {
+    var Spotify = require('node-spotify-api');
+
     var token;
     await (async() => {
         const getToken = await axios({
