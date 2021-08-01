@@ -95,14 +95,14 @@ export const getStaticProps = async() => {
         secret: c_secret
     });
 
-    // spotify
-    //     .request('https://api.spotify.com/v1/shows/3q6wJccR9gjQZgOjr23PEJ')
-    //     .then(function(data) {
-    //         console.log(data);
-    //     })
-    //     .catch(function(err) {
-    //         console.log("Error: " + err);
-    //     });
+    spotify
+        .request('https://api.spotify.com/v1/shows/3q6wJccR9gjQZgOjr23PEJ?market=US')
+        .then(function(data) {
+            console.log(data);
+        })
+        .catch(function(err) {
+            console.log("Error: " + err);
+        });
 
     var podcastData = "";
 
