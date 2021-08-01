@@ -90,6 +90,9 @@
 }
 
 @media screen and (max-width: 1025px) {
+    .container {
+        background: linear-gradient(116.34deg, var(--theme-ui-colors-sunken) 52%, var(--theme-ui-colors-primary) 0%);
+    }
     .cover {
         height: auto;
         width: 100%;
