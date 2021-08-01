@@ -74,6 +74,9 @@ export const getStaticProps = async() => {
         token = getToken.data;
     })();
     
+    var podcastData;
+    
+
     return {
         props: {
             token
