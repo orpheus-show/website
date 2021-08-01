@@ -64,21 +64,19 @@ export default function Home (props) {
     );
 }
 
-// export const getStaticProps = async() => {
-//     var token;
-//     await (async() => {
-//         const getToken = await axios({
-//             method: 'GET',
-//             url: 'https://podcast.hackclub.com/api/server'
-//         });
-//         token = getToken.data;
-//     })();
+export const getStaticProps = async() => {
+    var token;
+    await (async() => {
+        const getToken = await axios({
+            method: 'GET',
+            url: 'https://podcast.hackclub.com/api/server'
+        });
+        token = getToken.data;
+    })();
     
-
-
-//     return {
-//         props: {
-//             token
-//         }
-//     }
-// }
+    return {
+        props: {
+            token
+        }
+    }
+}
