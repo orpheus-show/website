@@ -22,7 +22,6 @@ export default function Home (props) {
                                 <h2 className={homeStyles.subtitle}>
                                     Made by The Hack Club Podcast Team 
                                     <br />
-                                <code> <a href="https://feeds.transistor.fm/the-orpheus-show" > https://feeds.transistor.fm/the-orpheus-show </a> </code>
                                 </h2>
                             </div>
                         </div>
@@ -75,7 +74,7 @@ export const getStaticProps = async() => {
     })();
     
     var podcastData;
-    
+
 
     return {
         props: {
