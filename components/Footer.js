@@ -23,7 +23,7 @@ const Footer = () => {
                 </li>
 
             </ul>
-            <h3>This Website/Podcast is Lisenced in Apache-2.0, and is not affilated with Hack Club or endorsed by Hack Club.</h3>
+            <h3>This Website/Podcast is Lisenced in<a rel="noreferrer" href="https://github.com/Orpheuspod/site/blob/main/LICENSE.md" target="_blank"> Apache-2.0 </a>, and is not affilated with Hack Club or endorsed by Hack Club.</h3>
             <h4>Icons Credit to <a rel="noreferrer" href="https://supercons.vercel.app/" target="_blank">Supercons</a> </h4>
            
     
