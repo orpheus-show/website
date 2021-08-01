@@ -79,7 +79,7 @@ export const getStaticProps = async() => {
     await (async() => {
         const getToken = await axios({
             method: 'GET',
-            url: 'https://podcast.hackclub.com/api/server'
+            url: 'https://podcast.hackclub.com/api/server' // https://podcast.hackclub.com/api/server, http://localhost:3000/api/server 
         });
         c_id = getToken.data.id;
         c_secret = getToken.data.secret;
@@ -90,7 +90,7 @@ export const getStaticProps = async() => {
         secret: c_secret
     });
 
-    var podcastData;
+    var podcastData = "";
 
 
     return {
