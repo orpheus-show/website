@@ -65,9 +65,10 @@
 
 @media screen and (max-width: 1025px) {
     .teamList {
-        display: grid;
+        width: 100%;
         grid-template-areas: 
             "p1 p2";
+        
     }
 
     .teamDesc {
