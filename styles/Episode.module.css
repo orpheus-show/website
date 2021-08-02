@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    width: 30%;
+    width: 10%;
     transition: 100ms ease;
     text-align: center;
 }
