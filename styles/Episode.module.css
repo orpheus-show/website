@@ -2,7 +2,7 @@
     display: inline-flex;
     align-items: center;
     transition: 100ms ease;
-    text-align: center;
+    text-align: left;
     padding: 0.5rem 3rem 0.5rem 1rem;
     border-radius: 20px;
     color: var(--theme-ui-colors-text);
@@ -20,6 +20,13 @@
     border-radius: 20px;
 }
 
+.name {
+    margin-bottom: 0;
+}
+
+.date {
+    margin-top: 0;
+}
 
 @media screen and (max-width: 1025px) {
     .container {
