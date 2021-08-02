@@ -46,15 +46,8 @@
     border: 1px solid var(--theme-ui-colors-border);
 }
 
-.div a:link {
-    color: #ffffff;
-}
-
-.div a:visited {
-    color: #ffffff;
-}
-
 .div a {
+    color: #ffffff;
     display: inline-block;
     padding: 0.25rem;
     margin: 0.25rem 0;

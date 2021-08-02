@@ -8,13 +8,6 @@
 
 .container a {
     font-weight: 800;
-}
-
-.container a:link {
-    color: #ffffff;
-}
-
-.container a:visited {
     color: #ffffff;
 }
 
