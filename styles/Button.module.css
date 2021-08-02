@@ -17,6 +17,7 @@
     font-weight: 900;
     color: #ffffff;
     font-size: 1.6rem;
+    backdrop-filter: blur(5px);
 }
 
 .btn:hover {
