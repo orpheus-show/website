@@ -15,19 +15,19 @@ import Repo from '../components/buttons/Repo'
 
 import axios from 'axios';
 
-export default function Home (props) {
+export default function Home(props) {
     const previousEpisodes = props.episodeData;
     return (
         <div>
             <div className={homeStyles.container}>
                 <div className={homeStyles.landing}>
                     <div className={homeStyles.left}>
-                
+
                         <div className={homeStyles.desc}>
                             <h1 className={homeStyles.title}>The Orpheus Show</h1>
                             <div>
                                 <h2 className={homeStyles.subtitle}>
-                                    Made by The Hack Club Podcast Team 
+                                    Brought to you by the Hack Club Podcast Team
                                     <br />
                                 </h2>
                             </div>
@@ -47,13 +47,13 @@ export default function Home (props) {
                         </div>
 
                     </div>
-                    
-                    <div className={homeStyles.right}>   
+
+                    <div className={homeStyles.right}>
                         <Cover />
                         <div className={homeStyles.buttonDiv}>
                             <ListenNow />
                             <Repo />
-                            <Slack /> 
+                            <Slack />
                             <Notes />
                         </div>
                     </div>
@@ -79,10 +79,10 @@ export default function Home (props) {
     );
 }
 
-export const getStaticProps = async() => {
+export const getStaticProps = async () => {
     var podcastData;
     var episodeData;
-    await (async() => {
+    await (async () => {
         const getPodcastData = await axios({
             method: 'GET',
             url: 'https://podcast.hackclub.com/api/server' // https://podcast.hackclub.com/api/server, http://localhost:3000/api/server 
