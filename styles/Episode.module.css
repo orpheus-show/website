@@ -10,7 +10,7 @@
 }
 
 .container:hover {
-    background-color: rgba(114, 114, 114, 0.3);
+ color: #fff;
 }
 
 .episodeThumbnail {
