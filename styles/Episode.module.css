@@ -1,11 +1,4 @@
-.btn {
-    font-family: Poppins;
-    font-style: normal;
-    height: 100%;
-    width: 30%;
-}
-
-.container {
+.episodeData {
     display: flex;
     align-items: center;
     transition: 100ms ease;
@@ -16,11 +9,9 @@
     width: 100px;
     height: 100px;
     margin-right: 2rem;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 1025px) {
-    .btn {
-        width: 100%;
-    }
+
 }
