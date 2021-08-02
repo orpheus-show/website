@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 1025px) {
     .container {
-        color: #fff;
+        color: rgb(255, 255, 255);
     }  
     
     .container:hover {

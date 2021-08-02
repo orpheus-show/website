@@ -6,7 +6,7 @@ import Image from "next/image";
 const members = [
     {
         "name": "Arav",
-        "desc": "Host",
+        "desc": "Host/Ops",
         "link": "https://twitter.com/heyarav",
         "image": "arav.jpg"
     },
@@ -33,6 +33,12 @@ const members = [
         "desc": "Development",
         "link": "https://github.com/NebuDev14",
         "image": "warren.png"
+    },
+    {
+      "name": "Asa",
+        "desc": "Development",
+        "link": "https://github.com/anglesideangle",
+        "image": "placeholder.png"
     }
 ]
 
