@@ -60,7 +60,7 @@
 .div a:hover {
     cursor: pointer;
     opacity: 1;
-    background-image: linear-gradient(116.34deg, var(--theme-ui-colors-accent) 70%, var(--theme-ui-colors-primary) 5%);
+    background-image: linear-gradient(116.34deg, var(--theme-ui-colors-accent) 85%, rgb(0,0,0,0) 5%);
 }
 
 
