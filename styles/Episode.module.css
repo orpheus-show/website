@@ -10,7 +10,7 @@
 }
 
 .container:hover {
-    background-color: rgba(114, 114, 114, 0.3);
+   background-color: rgba(114, 114, 114, 0.3);
 }
 
 .episodeThumbnail {
@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 1025px) {
     .container {
-        color: #fff;
+        color: rgb(255, 255, 255);
     }  
     
     .container:hover {
