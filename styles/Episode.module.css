@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    align-items: center;
 }
 
 .instance {
@@ -11,4 +12,11 @@
     height: 100px;
     margin-right: 2rem;
     border-radius: 20px;
+}
+.name {
+    margin-bottom: 0;
+}
+
+.date {
+    margin-top: 0;
 }
