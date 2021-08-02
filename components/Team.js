@@ -13,7 +13,7 @@ const members = [
     {
         "name": "Deven",
         "desc": "Operations",
-        "link": "https://github.com/devenjadhav",
+        "link": "https://devenjadhav.com",
         "image": "deven.jpg"
     },
     {
