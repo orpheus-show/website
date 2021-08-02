@@ -35,7 +35,7 @@ export default function Home(props) {
                         <div className={homeStyles.about}>
                             <h2>About</h2>
                             <h3 className={homeStyles.subtitle}>
-                                The Orpheus Show is an unofficial podcast made by members of the <span className={homeStyles.channel}>#podcast</span> channel. <br /> <br /> Our goal is to show the world what makes Hack Club so special, and inspire others by sharing the stories of influential people in the community.
+                                Welcome to the Orpheus Show, Hack Club's community run Podcast! Join us on our journey as we talk about programming, engineering, design, psychology, food and life. <br /> <br /> Our aim is to discover the people who make up Hack Club, talk about their life, their experiences and what they have to share with the rest of the community.
                             </h3>
                         </div>
 
