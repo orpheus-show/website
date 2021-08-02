@@ -55,7 +55,7 @@ const Team = () => {
                     </li>
                 ))}
             </ul>
-            <h4>Want to join the team? Join our <a href='https://hackclub.slack.com/archives/C029KLH2UCU'>slack channel</a>  and say hello!</h4>
+            <h4>Want to join the team? Join our <a href='https://hackclub.slack.com/archives/C029KLH2UCU' target="_blank">slack channel</a>  and say hello!</h4>
 
         </div>
     );

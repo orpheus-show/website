@@ -17,6 +17,10 @@
     padding: 0;
 }
 
+.teamList:first-child {
+    margin-left: 0;
+}
+
 @media screen and (max-width: 1025px) {
     .teamList {
         justify-content: center;
