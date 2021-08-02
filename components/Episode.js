@@ -2,7 +2,6 @@ import episodeStyles from '../styles/Episode.module.css';
 
 function Episode({details}) {
     return (  
-        <button className={episodeStyles.btn}>
             <a href={details.external_urls.spotify} target="_blank">
                 <div className={episodeStyles.container}>
                     <img src={details.images[1].url} className={episodeStyles.episodeThumbnail} />
@@ -16,7 +15,7 @@ function Episode({details}) {
                     </div>
                 </div>
             </a>
-        </button>
+        
     )
 }
 

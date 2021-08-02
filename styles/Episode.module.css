@@ -1,19 +1,33 @@
 .container {
-    display: flex;
-    width: 250px;
+    display: inline-flex;
+    align-items: center;
     transition: 100ms ease;
     text-align: center;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    border-radius: 20px;
+    color: var(--theme-ui-colors-text);
+    transition: 200ms ease;
+}
+
+.container:hover {
+    background-color: rgba(114, 114, 114, 0.3);
 }
 
 .episodeThumbnail {
     width: 100px;
     height: 100px;
     margin-right: 2rem;
-    border-radius: 10px;
+    border-radius: 20px;
 }
+
 
 @media screen and (max-width: 1025px) {
     .container {
-        width: 100%;
+        color: #fff;
+    }  
+    
+    .container:hover {
+        background-color: rgba(0, 0, 0, 0.3);
     }
+    
 }
