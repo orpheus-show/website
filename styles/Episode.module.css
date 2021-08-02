@@ -3,7 +3,7 @@
     align-items: center;
     transition: 100ms ease;
     text-align: left;
-    padding: 0.5rem 3rem 0.5rem 1rem;
+    padding: 1rem 3rem 1rem 1rem;
     border-radius: 20px;
     color: var(--theme-ui-colors-text);
     transition: 200ms ease;
