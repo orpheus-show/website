@@ -3,7 +3,7 @@ import episodeStyles from '../styles/Episode.module.css';
 function Episode({details}) {
     return (  
         <div className={episodeStyles.container}>
-            <img src={details.img} className={episodeStyles.episodePFP}/>
+            <img src={details.images[1].url} className={episodeStyles.episodeThumbnail} />
             <div className={episodeStyles.info}>
                 <h3 className={episodeStyles.name}>
                     {details.name}

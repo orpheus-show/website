@@ -5,3 +5,8 @@
 .instance {
     border-radius: 8px;
 }
+
+.episodeThumbnail {
+    width: 100px;
+    height: 100px;
+}
