@@ -77,34 +77,15 @@ export default function Home (props) {
 }
 
 export const getStaticProps = async() => {
-    var Spotify = require('node-spotify-api');
 
-    var c_id;
-    var c_secret;
+    var podcastData;
     await (async() => {
-        const getToken = await axios({
+        const getPodcastData = await axios({
             method: 'GET',
             url: 'https://podcast.hackclub.com/api/server' // https://podcast.hackclub.com/api/server, http://localhost:3000/api/server 
         });
-        c_id = getToken.data.key.id;
-        c_secret = getToken.data.key.secret;
+        podcastData = getPodcastData.data;
     })();
-
-    var spotify = new Spotify({
-        id: c_id,
-        secret: c_secret
-    });
-
-    spotify
-        .request('https://api.spotify.com/v1/shows/3q6wJccR9gjQZgOjr23PEJ?market=US')
-        .then(function(data) {
-            console.log(data);
-        })
-        .catch(function(err) {
-            console.log("Error: " + err);
-        });
-
-    var podcastData = "";
 
 
     return {
