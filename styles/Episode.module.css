@@ -1,5 +1,5 @@
-.episodeData {
-    display: flex;
+.container {
+    display: inline-flex;
     align-items: center;
     transition: 100ms ease;
     text-align: center;
@@ -12,6 +12,12 @@
     border-radius: 20px;
 }
 
-@media screen and (max-width: 1025px) {
+.info {
+    text-decoration: none;
+}
 
+@media screen and (max-width: 1025px) {
+    .container {
+        color: #fff;
+    }
 }

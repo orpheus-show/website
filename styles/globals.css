@@ -13,7 +13,12 @@ h2 {
 
 a:visited {
   color: var(--theme-ui-colors-secondary);
+  text-decoration: none;
 }
+
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 
 ::-webkit-scrollbar {
   width: 4px;
