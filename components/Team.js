@@ -43,7 +43,7 @@ const Team = () => {
             <h1>Team</h1>
             <h3 className={homeStyles.subtitle}>Thanks to our amazing team members that made The Orpheus Show possible!</h3>
             <ul className={teamStyles.teamList}>
-                ${members.map(member => (
+                {members.map(member => (
                     <li className={teamStyles.teamMember}>
                         <a rel="noreferrer" href={member.link} target="_blank">
                             <Image height={75} width={75} alt={`${member.name}'s profile picture`} src={`/team-members/${member.image}`} className={teamStyles.teamPFP}/>
@@ -53,7 +53,7 @@ const Team = () => {
                             <h4 className={teamStyles.teamDesc}>{member.desc}</h4>
                         </div>
                     </li>
-                ))};
+                ))}
             </ul>
         </div>
     );
