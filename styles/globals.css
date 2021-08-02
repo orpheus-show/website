@@ -17,6 +17,11 @@ a:visited {
 
 ::-webkit-scrollbar {
   width: 4px;
+  height: 4px;
+  background-color: var(--theme-ui-colors-primary);
+}
+
+::-webkit-scrollbar-corner {
   background-color: var(--theme-ui-colors-primary);
 }
 
