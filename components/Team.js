@@ -47,11 +47,12 @@ const Team = () => {
                     <li className={teamStyles.teamMember}>
                         <a rel="noreferrer" href={member.link} target="_blank">
                             <Image height={75} width={75} alt={`${member.name}'s profile picture`} src={`/team-members/${member.image}`} className={teamStyles.teamPFP} />
+                        
+                            <div className={teamStyles.info}>
+                                <h3 className={teamStyles.teamName}>{member.name}</h3>
+                                <h4 className={teamStyles.teamDesc}>{member.desc}</h4>
+                            </div>
                         </a>
-                        <div className={teamStyles.info}>
-                            <h3 className={teamStyles.teamName}>{member.name}</h3>
-                            <h4 className={teamStyles.teamDesc}>{member.desc}</h4>
-                        </div>
                     </li>
                 ))}
             </ul>
