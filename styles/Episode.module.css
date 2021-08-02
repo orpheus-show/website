@@ -3,6 +3,13 @@
     align-items: center;
     transition: 100ms ease;
     text-align: center;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    border-radius: 20px;
+    transition: 200ms ease;
+}
+
+.container:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .episodeThumbnail {

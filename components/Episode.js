@@ -2,7 +2,6 @@ import episodeStyles from '../styles/Episode.module.css';
 
 function Episode({details}) {
     return (  
-        
             <a href={details.external_urls.spotify} target="_blank">
                 <div className={episodeStyles.container}>
                     <img src={details.images[1].url} className={episodeStyles.episodeThumbnail} />
