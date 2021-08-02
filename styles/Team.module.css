@@ -6,8 +6,6 @@
     margin-bottom: 2rem;
 }
 
-
-
 .teamList {
     display: flex;
     list-style: none;
@@ -24,24 +22,32 @@
 }
 
 .teamMember {
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 20px;
     display: grid;
     grid-template-areas: 
         "name"
         "pfp"
         "desc";
     text-align: center;
-    margin: 0 2rem 0 2rem;
+    transition: 200ms ease;
+}
+
+.teamMember:hover {
+    background-color: rgba(114, 114, 114, 0.3);
+}
+
+.teamMember a {
+    text-decoration: var(--theme-ui-text);
+    color: unset;
 }
 
 .teamPFP {
     width: 75px;
     height: 75pt;
-    border-radius: 15%;
+    border-radius: 20px;
     transition: 200ms ease;
-}
-
-.teamPFP:hover {
-    transform: scale(1.05);
 }
 
 .teamName {
