@@ -3,6 +3,8 @@ import episodeStyles from '../styles/EpisodeContainer.module.css';
 
 import Cover from '../components/Cover';
 import Episode from '../components/Episode';
+import Team from '../components/Team';
+import Footer from '../components/Footer';
 
 // buttons
 import ListenNow from '../components/buttons/ListenNow';
@@ -10,13 +12,11 @@ import Notes from '../components/buttons/ViewNotes';
 import Slack from '../components/buttons/Slack'
 import Repo from '../components/buttons/Repo'
 
-import Team from '../components/Team';
-import Footer from '../components/Footer';
 
 import axios from 'axios';
 
 export default function Home (props) {
-
+    const previousEpisodes = props.episodeData;
     return (
         <div>
             <div className={homeStyles.container}>
@@ -65,6 +65,9 @@ export default function Home (props) {
                     <div className={episodeStyles.container}>
                         <h1>Episodes</h1>
                         <h3 className={homeStyles.subtitle}>Check out the latest episodes from The Orpheus Show!</h3>
+                        {previousEpisodes.map((ep, i) => (
+                            <Episode key={i} details={ep} />
+                        ))}
                     </div>
 
                 </div>
@@ -77,7 +80,6 @@ export default function Home (props) {
 }
 
 export const getStaticProps = async() => {
-
     var podcastData;
     var episodeData;
     await (async() => {

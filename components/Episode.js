@@ -1,6 +1,6 @@
 import episodeStyles from '../styles/Episode.module.css';
 
-const Episode = ({details}) => {
+function Episode({details}) {
     return (  
         <div className={episodeStyles.container}>
             <img src={details.img} className={episodeStyles.episodePFP}/>
@@ -9,7 +9,7 @@ const Episode = ({details}) => {
                     {details.name}
                 </h3>
                 <h4 className={episodeStyles.date}>
-                    {details.date}
+                    {details.release_date}
                 </h4>
             </div>
         </div>
