@@ -37,7 +37,7 @@ const members = [
 ]
 
 const Team = () => {
-    
+
     return (
         <div className={teamStyles.container}>
             <h1>Team</h1>
@@ -46,7 +46,7 @@ const Team = () => {
                 {members.map(member => (
                     <li className={teamStyles.teamMember}>
                         <a rel="noreferrer" href={member.link} target="_blank">
-                            <Image height={75} width={75} alt={`${member.name}'s profile picture`} src={`/team-members/${member.image}`} className={teamStyles.teamPFP}/>
+                            <Image height={75} width={75} alt={`${member.name}'s profile picture`} src={`/team-members/${member.image}`} className={teamStyles.teamPFP} />
                         </a>
                         <div className={teamStyles.info}>
                             <h3 className={teamStyles.teamName}>{member.name}</h3>
@@ -55,6 +55,8 @@ const Team = () => {
                     </li>
                 ))}
             </ul>
+            <h4>Want to join the team? Join our <a rel="noreferrer" href='https://hackclub.slack.com/archives/C029KLH2UCU' target="_blank" id='slack-link'>slack channel</a>  and say hello!</h4>
+
         </div>
     );
 }

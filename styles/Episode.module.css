@@ -9,7 +9,7 @@
     width: 100px;
     height: 100px;
     margin-right: 2rem;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 1025px) {
