@@ -6,6 +6,8 @@
     margin-bottom: 2rem;
 }
 
+
+
 .teamList {
     display: flex;
     list-style: none;
@@ -32,9 +34,9 @@
 }
 
 .teamPFP {
-    width: 75pt;
+    width: 75px;
     height: 75pt;
-    border-radius: 20px;
+    border-radius: 15%;
     transition: 200ms ease;
 }
 

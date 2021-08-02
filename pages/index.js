@@ -15,19 +15,19 @@ import Repo from '../components/buttons/Repo'
 
 import axios from 'axios';
 
-export default function Home (props) {
+export default function Home(props) {
     const previousEpisodes = props.episodeData;
     return (
         <div>
             <div className={homeStyles.container}>
                 <div className={homeStyles.landing}>
                     <div className={homeStyles.left}>
-                
+
                         <div className={homeStyles.desc}>
                             <h1 className={homeStyles.title}>The Orpheus Show</h1>
                             <div>
                                 <h2 className={homeStyles.subtitle}>
-                                    Made by The Hack Club Podcast Team 
+                                    Brought to you by the Hack Club Podcast Team
                                     <br />
                                 </h2>
                             </div>
@@ -35,25 +35,26 @@ export default function Home (props) {
                         <div className={homeStyles.about}>
                             <h2>About</h2>
                             <h3 className={homeStyles.subtitle}>
-                                The Orpheus Show is an unofficial podcast made by members of the <span className={homeStyles.channel}>#podcast</span> channel. <br /> <br /> Our goal is to show the world what makes Hack Club so special, and inspire others by sharing the stories of influential people in the community.
+                                Welcome to the Orpheus Show, Hack Club's community run Podcast! Join us on our journey as we talk about programming, engineering, design, psychology, food and life. <br /> <br /> Our aim is to discover the people who make up Hack Club, talk about their life, their experiences and what they have to share with the rest of the community.
                             </h3>
                         </div>
 
                         <div className={homeStyles.about}>
                             <h2>Who is this podcast for?</h2>
                             <h3 className={homeStyles.subtitle}>
-                                The Orpheus Show is not just made for Hack Clubbers everywhere, but for everyone else too.
+                                Although this podcast is open for everyone, the conversations and ideas would most likely be centred around the Hack Club community. This podcast is for Hack Clubbers, by Hack Clubbers and we intend to be the voice of fellow Hack Clubbers.
                             </h3>
                         </div>
+                        <h3 className={homeStyles.lead}>If you haven't already, <a href='https://hackclub.com/slack/'>join the Hack Club community</a> today!</h3>
 
                     </div>
-                    
-                    <div className={homeStyles.right}>   
+
+                    <div className={homeStyles.right}>
                         <Cover />
                         <div className={homeStyles.buttonDiv}>
                             <ListenNow />
                             <Repo />
-                            <Slack /> 
+                            <Slack />
                             <Notes />
                         </div>
                     </div>
@@ -79,10 +80,10 @@ export default function Home (props) {
     );
 }
 
-export const getStaticProps = async() => {
+export const getStaticProps = async () => {
     var podcastData;
     var episodeData;
-    await (async() => {
+    await (async () => {
         const getPodcastData = await axios({
             method: 'GET',
             url: 'https://podcast.hackclub.com/api/server' // https://podcast.hackclub.com/api/server, http://localhost:3000/api/server 
