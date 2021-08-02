@@ -38,7 +38,7 @@ const Team = () => {
                 </li>
                 <li className={teamStyles.teamMember}>
                     <a rel="noreferrer" href="https://github.com/arashnrim" target="_blank">
-                        <Image height={75} width={75} alt="Arash Profile Picture" src="/team-members/placeholder.png" className={teamStyles.teamPFP}/>
+                        <Image height={75} width={75} alt="Arash Profile Picture" src="/team-members/arash.jpg" className={teamStyles.teamPFP}/>
                     </a>
                     <div className={teamStyles.info}>
                         <h3 className={teamStyles.teamName}>Arash</h3>
