@@ -42,10 +42,23 @@
     transform: scale(1.05);
 }
 
+.teamName {
+    margin-bottom: 0;
+}
+
+.teamDesc {
+    margin: 0;
+    font-weight: 400;
+}
+
 @media screen and (max-width: 1025px) {
     .teamList {
         display: grid;
         grid-template-areas: 
             "p1 p2";
+    }
+
+    .teamDesc {
+        margin-bottom: 50%;
     }
 }
