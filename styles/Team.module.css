@@ -7,11 +7,11 @@
 }
 
 .teamList {
-    display: flex;
     list-style: none;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    width: 50%;
+    display: grid;
+    grid-template-areas: 
+        "p1 p2 p3 p4 p5";
     padding: 0;
 }
 
