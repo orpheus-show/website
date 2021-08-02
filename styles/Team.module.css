@@ -39,7 +39,7 @@
 }
 
 .teamMember:hover {
-    background-color: #3508fa86;
+       background-color: rgba(114, 114, 114, 0.3);
 }
 
 .teamMember a {
