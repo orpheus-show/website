@@ -37,7 +37,7 @@ const members = [
     {
       "name": "Asa",
         "desc": "Development",
-        "link": "https://github.com/anglesideangle",
+        "link": "https://anglesideangle.github.io",
         "image": "placeholder.png"
     }
 ]
