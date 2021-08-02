@@ -5,11 +5,12 @@
     text-align: center;
     padding: 0.5rem 3rem 0.5rem 1rem;
     border-radius: 20px;
+    color: var(--theme-ui-colors-text);
     transition: 200ms ease;
 }
 
 .container:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(114, 114, 114, 0.3);
 }
 
 .episodeThumbnail {
@@ -19,12 +20,14 @@
     border-radius: 20px;
 }
 
-.info {
-    text-decoration: none;
-}
 
 @media screen and (max-width: 1025px) {
     .container {
         color: #fff;
+    }  
+    
+    .container:hover {
+        background-color: rgba(0, 0, 0, 0.3);
     }
+    
 }
