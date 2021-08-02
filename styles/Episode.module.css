@@ -1,9 +1,8 @@
 .container {
     display: flex;
-}
-
-.instance {
-    border-radius: 8px;
+    width: 30%;
+    transition: 100ms ease;
+    text-align: center;
 }
 
 .episodeThumbnail {
@@ -11,4 +10,10 @@
     height: 100px;
     margin-right: 2rem;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 1025px) {
+    .container {
+        width: 100%;
+    }
 }
