@@ -35,14 +35,14 @@ export default function Home(props) {
                         <div className={homeStyles.about}>
                             <h2>About</h2>
                             <h3 className={homeStyles.subtitle}>
-                                Welcome to the Orpheus Show, Hack Club's community run Podcast! Join us on our journey as we talk about programming, engineering, design, psychology, food and life. <br /> <br /> Our aim is to discover the people who make up Hack Club, talk about their life, their experiences and what they have to share with the rest of the community.
+                            Welcome to the Orpheus Show, Hack Club's community-run podcast! Join us on our journey as we talk about programming, engineering, design, psychology, food and life. <br /> <br /> Our aim is to discover the people who make up Hack Club, talk about their life, their experiences and what they have to share with the rest of the community.
                             </h3>
                         </div>
 
                         <div className={homeStyles.about}>
                             <h2>Who is this podcast for?</h2>
                             <h3 className={homeStyles.subtitle}>
-                                Although this podcast is open for everyone, the conversations and ideas would most likely be centred around the Hack Club community. This podcast is for Hack Clubbers, by Hack Clubbers and we intend to be the voice of fellow Hack Clubbers.
+                            Although this podcast is open for everyone, the conversations and ideas would most likely be centred around the Hack Club community. This podcast is for Hack Clubbers, by Hack Clubbers and we intend to be the voice of fellow Hack Clubbers.
                             </h3>
                         </div>
                         <h3 className={homeStyles.lead}>If you haven't already, <a href='https://hackclub.com/slack/' target="_blank">join the Hack Club community</a> today!</h3>
