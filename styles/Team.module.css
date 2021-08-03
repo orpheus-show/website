@@ -10,6 +10,7 @@
     list-style: none;
     width: 50%;
     display: grid;
+    grid-auto-columns: 1fr;
     grid-template-areas: 
         "p1 p2 p3";
     padding: 0;
