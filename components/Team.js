@@ -40,9 +40,15 @@ const members = [
         "link": "https://anglesideangle.github.io",
         "image": "asa.png"
     },
+<<<<<<< HEAD
     {
         "name": "Hugo",
         "desc": "Marketing",
+=======
+      {
+      "name": "Hugo",
+        "desc": "Social Lead",
+>>>>>>> main
         "link": "https://podcast.hackclub.com",
         "image": "corgi.png"
     },

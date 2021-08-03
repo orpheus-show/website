@@ -26,7 +26,7 @@
 
 .title {
     font-size: 400%;
-    background: linear-gradient(45deg, #ff3f58, #ff8c37);
+    background: linear-gradient(1deg, #ff3f58,#ff3f58);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 3rem 0rem 1rem 0rem;
