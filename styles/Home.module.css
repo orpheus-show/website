@@ -61,7 +61,7 @@
 
 @media screen and (max-width: 1025px) {
     .container {
-        background: linear-gradient(var(--theme-ui-colors-sunken) 55%, var(--theme-ui-colors-primary) 0%);
+        background: linear-gradient(var(--theme-ui-colors-sunken) 40%, var(--theme-ui-colors-primary) 0%);
     }
     .cover {
         height: auto;
