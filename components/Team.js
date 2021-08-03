@@ -42,7 +42,7 @@ const members = [
     },
       {
       "name": "Hugo",
-        "desc": "Social Programs Lead",
+        "desc": "Social Lead",
         "link": "https://podcast.hackclub.com",
         "image": "corgi.png"
     },
