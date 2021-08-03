@@ -54,7 +54,7 @@ const members = [
     },
     {
         "name": "Jason",
-        "desc": "Episode Editor",
+        "desc": "Post Production",
         "link": "https://podcast.hackclub.com",
         "image": "placeholder.png"
     }
