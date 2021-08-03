@@ -43,7 +43,8 @@
 
 .div hr {
     margin: 0;
-    border: 1px solid var(--theme-ui-colors-border);
+    border: 1px solid var(--theme-ui-colors-yellow);
+    border-radius: 999px;
 }
 
 .div a {
