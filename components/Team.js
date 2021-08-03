@@ -51,6 +51,12 @@ const members = [
         "desc": "Helper",
         "link": "https://podcast.hackclub.com",
         "image": "placeholder.png"
+    },
+    {
+      "name": "Jason",
+        "desc": "Episode Editor",
+        "link": "https://podcast.hackclub.com",
+        "image": "placeholder.png"
     }
 ]
 
@@ -74,7 +80,7 @@ const Team = () => {
                     </li>
                 ))}
             </ul>
-            <h4>Want to join the team? Join our <a href='https://hackclub.slack.com/archives/C029KLH2UCU' target="_blank">slack channel</a>  and say hello!</h4>
+            <h3>Want to join the team? Join our <a href='https://hackclub.slack.com/archives/C029KLH2UCU' target="_blank">Slack channel</a> and say hello!</h3>
 
         </div>
     );
