@@ -6,7 +6,7 @@ import Image from "next/image";
 const members = [
     {
         "name": "Arav",
-        "desc": "Operations/Host",
+        "desc": "Host",
         "link": "https://twitter.com/heyarav",
         "image": "arav.jpg"
     },
