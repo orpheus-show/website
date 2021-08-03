@@ -35,19 +35,19 @@ const members = [
         "image": "warren.png"
     },
     {
-      "name": "Asa",
+        "name": "Asa",
         "desc": "Development",
         "link": "https://anglesideangle.github.io",
         "image": "asa.png"
     },
-      {
-      "name": "Hugo",
-        "desc": "Social Programs Lead",
+    {
+        "name": "Hugo",
+        "desc": "Marketing",
         "link": "https://podcast.hackclub.com",
         "image": "corgi.png"
     },
     {
-      "name": "Skye",
+        "name": "Skye",
         "desc": "Helper",
         "link": "https://podcast.hackclub.com",
         "image": "placeholder.png"
@@ -65,7 +65,7 @@ const Team = () => {
                     <li className={teamStyles.teamMember}>
                         <a rel="noreferrer" href={member.link} target="_blank">
                             <Image height={75} width={75} alt={`${member.name}'s profile picture`} src={`/team-members/${member.image}`} className={teamStyles.teamPFP} />
-                        
+
                             <div className={teamStyles.info}>
                                 <h3 className={teamStyles.teamName}>{member.name}</h3>
                                 <h4 className={teamStyles.teamDesc}>{member.desc}</h4>
