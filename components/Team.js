@@ -38,6 +38,18 @@ const members = [
       "name": "Asa",
         "desc": "Development",
         "link": "https://anglesideangle.github.io",
+        "image": "asa.png"
+    },
+      {
+      "name": "Hugo",
+        "desc": "Social Programs Lead",
+        "link": "https://podcast.hackclub.com",
+        "image": "corgi.png"
+    },
+    {
+      "name": "Skye",
+        "desc": "Helper",
+        "link": "https://podcast.hackclub.com",
         "image": "placeholder.png"
     }
 ]
