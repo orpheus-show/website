@@ -12,16 +12,14 @@ h2 {
 /* links */
 
 a {
-  text-decoration: none;
-}
-
-a:visited {
-  color: var(--theme-ui-colors-secondary);
+  color: #ff3f58;
+  text-decoration: underline;
+  text-underline-position: below;
 }
 
 a:hover { 
-  color: blue;
-  text-decoration: underline; }
+  text-decoration-style: wavy;
+}
 
 ::-webkit-scrollbar {
   width: 4px;

@@ -23,7 +23,7 @@ const Footer = () => {
                 </li>
 
             </ul>
-            <h4 className={footerStyles.sub}>The Orpheus Show is a community initiative by members of Hack Club. We are neither affiliated with nor endorsed by Hack Club and its HQ.</h4>
+            <h4 className={footerStyles.sub}>The Orpheus Show is a community initiative by members of Hack Club. We are neither affiliated with nor endorsed by the Hack Club HQ.</h4>
             <h4 className={footerStyles.sub}>The Show is open source on <a rel="noreferrer" href="https://github.com/Orpheuspod" target="_blank">GitHub</a> and <a rel="noreferrer" href="https://devenjadhav.notion.site/The-Orpheus-Show-faa883027b5849e9af8e9d3b349d74ad" target="_blank">Notion</a> under the <a rel="noreferrer" href="https://github.com/Orpheuspod/site/blob/main/LICENSE.md" target="_blank">Apache License 2.0</a>.</h4>
             <h4 className={footerStyles.sub}>Special thanks to <a rel="noreferrer" href="https://supercons.vercel.app/" target="_blank">Supercons</a> for the amazing icons!</h4>
 
