@@ -66,6 +66,7 @@ const Team = () => {
         <div className={teamStyles.container}>
             <h1>Team</h1>
             <h3 className={homeStyles.subtitle}>Thanks to our amazing team members that made The Orpheus Show possible!</h3>
+            h3>Want to join the team? Join our <a href='https://hackclub.slack.com/archives/C029KLH2UCU' target="_blank">Slack channel</a> and say hello!</h3>
             <ul className={teamStyles.teamList}>
                 {members.map(member => (
                     <li className={teamStyles.teamMember}>
@@ -80,7 +81,7 @@ const Team = () => {
                     </li>
                 ))}
             </ul>
-            <h3>Want to join the team? Join our <a href='https://hackclub.slack.com/archives/C029KLH2UCU' target="_blank">Slack channel</a> and say hello!</h3>
+            
 
         </div>
     );
