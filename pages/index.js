@@ -26,10 +26,10 @@ export default function Home(props) {
                         <div className={homeStyles.desc}>
                             <h1 className={homeStyles.title}>The Orpheus Show</h1>
                             <div>
-                                <h2 className={homeStyles.subtitle}>
+                                <h3 className={homeStyles.subtitle}>
                                     Brought to you by the Hack Club Podcast Team
                                     <br />
-                                </h2>
+                                </h3>
                             </div>
                         </div>
                         <div className={homeStyles.about}>
