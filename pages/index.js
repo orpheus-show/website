@@ -14,6 +14,7 @@ import Repo from '../components/buttons/Repo'
 
 
 import axios from 'axios';
+var Spotify = require('node-spotify-api');
 
 export default function Home(props) {
     const previousEpisodes = props.episodeData;
@@ -81,15 +82,25 @@ export default function Home(props) {
 }
 
 export const getStaticProps = async () => {
+    let data;
     var podcastData;
     var episodeData;
     await (async () => {
-        const getPodcastData = await axios({
-            method: 'GET',
-            url: 'https://podcast.hackclub.com/api/server' // https://podcast.hackclub.com/api/server, http://localhost:3000/api/server 
+        var spotify = new Spotify({
+            id: process.env.REACT_APP_CLIENT_ID,
+            secret: process.env.REACT_APP_CLIENT_SECRET
         });
-        podcastData = getPodcastData.data.data;
-        episodeData = getPodcastData.data.data.episodes.items
+    
+        spotify
+            .request('https://api.spotify.com/v1/shows/3q6wJccR9gjQZgOjr23PEJ?market=US')
+            .then(function(data) {
+                data = data;
+            })
+            .catch(function(err) {
+                console.log("Error: " + err);
+            }); 
+        podcastData = data.data.data;
+        episodeData = data.data.data.episodes.items
     })();
 
     return {
