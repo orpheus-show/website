@@ -11,7 +11,7 @@ To get started, follow the steps below. If copying, select, copy, and paste the 
 1. Download the code to your computer through cloning the repository.
 
 ```
-$ git clone https://github.com/Orpheuspod/site.git
+$ git clone https://github.com/Orpheuspod/orpheus-show.git
 ```
 
 2. Install the required dependencies.
