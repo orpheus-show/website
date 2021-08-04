@@ -1,7 +1,6 @@
 import axios from 'axios';
 
 var Spotify = require('node-spotify-api');
-require('dotenv').config();
 
 export default function handler(req, res) {
     if (req.method == 'GET') {
