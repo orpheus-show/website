@@ -22,10 +22,12 @@
 
 .name {
     margin-bottom: 0;
+    max-width: 75%;
 }
 
 .date {
     margin-top: 0;
+    max-width: 75%;
 }
 
 @media screen and (max-width: 1025px) {
@@ -37,4 +39,11 @@
         background-color: rgba(0, 0, 0, 0.3);
     }
     
+    .name {
+        max-width: 100%;
+    }
+
+    .date {
+        max-width: 100%;
+    }
 }
