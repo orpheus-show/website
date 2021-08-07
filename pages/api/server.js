@@ -13,8 +13,7 @@ export default function handler(req, res) {
     
         spotify
             .request('https://api.spotify.com/v1/shows/3q6wJccR9gjQZgOjr23PEJ?market=US')
-            .then(function(data) {
-                console.log(data);  
+            .then(function(data) { 
                 res.status(200).json({data})
             })
             .catch(function(err) {

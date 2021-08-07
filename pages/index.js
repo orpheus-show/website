@@ -84,9 +84,9 @@ export const getStaticProps = async () => {
     var podcastData;
     var episodeData;
     await (async () => {
-        const getPodcastData = await axios({
+        const getPodcastData = await axios ({
             method: 'GET',
-            url: 'https://podcast.hackclub.com/api/server' // https://podcast.hackclub.com/api/server, http://localhost:3000/api/server 
+            url: 'http://localhost:3000/api/server' // https://podcast.hackclub.com/api/server, http://localhost:3000/api/server 
         });
         podcastData = getPodcastData.data.data;
         episodeData = getPodcastData.data.data.episodes.items

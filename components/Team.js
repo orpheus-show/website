@@ -68,8 +68,8 @@ const Team = () => {
             <h3 className={homeStyles.subtitle}>Thanks to our amazing team members that made The Orpheus Show possible!</h3>
             <h3>Want to join our team? Join the <a href='https://hackclub.slack.com/archives/C029KLH2UCU' target="_blank" className={teamStyles.link}>Slack channel</a> and find something to help with!</h3>
             <ul className={teamStyles.teamList}>
-                {members.map(member => (
-                    <li className={teamStyles.teamMember}>
+                {members.map((member, i) => (
+                    <li className={teamStyles.teamMember} key={i}>
                         <a rel="noreferrer" href={member.link} target="_blank">
                             <Image height={75} width={75} alt={`${member.name}'s profile picture`} src={`/team-members/${member.image}`} className={teamStyles.teamPFP} />
 
