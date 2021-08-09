@@ -8,7 +8,6 @@
     color: var(--theme-ui-colors-text);
     transition: 200ms ease;
 }
-
 .container:hover {
    background-color: rgba(114, 114, 114, 0.3);
 }
@@ -21,23 +20,16 @@
 }
 
 .name {
-    margin-bottom: 0;
+    margin: 0;
     max-width: 75%;
 }
 
 .date {
-    margin-top: 0;
+    margin: 0;
     max-width: 75%;
 }
 
 @media screen and (max-width: 1025px) {
-    .container {
-        color: rgb(255, 255, 255);
-    }  
-    
-    .container:hover {
-        background-color: rgba(0, 0, 0, 0.3);
-    }
     
     .name {
         max-width: 100%;
