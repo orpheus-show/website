@@ -30,11 +30,12 @@ $ yarn dev
 
 ## Special thanks
 
-The Orpheus Show's podcast could not have been created without [Next.js], [Theme UI] and the [Hack Club Theme]. Thanks to the developers of these projects for creating them!
+The Orpheus Show's podcast could not have been created without [Next.js], [Theme UI] and the [Hack Club Theme]. Thanks to the developers of these projects for creating them! Also a special thanks to [Supercons] for the amazing icons!
 
 [next.js]: https://nextjs.org
 [theme ui]: https://theme-ui.com
 [hack club theme]: https://theme.hackclub.com
+[supercons]: https://supercons.vercel.app/
 
 ## License
 
