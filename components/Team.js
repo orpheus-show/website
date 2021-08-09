@@ -47,8 +47,8 @@ const members = [
         "image": "corgi.png"
     },
     {
-        "name": "Skye",
-        "desc": "Production",
+        "name": "Rebecca",
+        "desc": "Operations",
         "link": "https://podcast.hackclub.com",
         "image": "placeholder.png"
     },

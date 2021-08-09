@@ -15,7 +15,6 @@
     grid-template-areas: 
         "p1 p2 p3";
     padding: 0;
-    background-color: var(--theme-ui-colors-sunken);
 }
 
 .teamList:first-child {
@@ -71,9 +70,6 @@
         width: 100%;
         grid-template-areas: 
             "p1 p2";
-
-        background-color: var(--theme-ui-colors-primary);
-        
     }
 
     .teamDesc {
