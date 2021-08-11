@@ -43,19 +43,19 @@ const members = [
     {
         "name": "Hugo",
         "desc": "Marketing",
-        "link": "https://podcast.hackclub.com",
+        "link": "http://twitter.com/rpitechguy",
         "image": "corgi.png"
     },
     {
-        "name": "Skye",
-        "desc": "Production",
-        "link": "https://podcast.hackclub.com",
+        "name": "Rebecca",
+        "desc": "Operations",
+        "link": "https://rbccawang.com/",
         "image": "placeholder.png"
     },
     {
         "name": "Jason",
         "desc": "Production",
-        "link": "https://podcast.hackclub.com",
+        "link": "https://jasonaa.me/",
         "image": "placeholder.png"
     }
 ]

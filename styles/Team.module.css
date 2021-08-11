@@ -2,20 +2,15 @@
     margin-top: 3rem;
 }
 
-.subtitle {
-    margin-bottom: 2rem;
-}
-
 .teamList {
     border-radius: 20px;
     list-style: none;
     width: 50%;
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-template-areas: 
-        "p1 p2 p3";
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 0;
-    background-color: var(--theme-ui-colors-sunken);
+    gap: 1rem;
 }
 
 .teamList:first-child {
@@ -29,7 +24,6 @@
 }
 
 .teamMember {
-    margin: 0.5rem;
     padding: 1rem;
     border-radius: 20px;
     display: grid;
@@ -39,10 +33,11 @@
         "desc";
     text-align: center;
     transition: 200ms ease;
+    width: 9rem;
 }
 
 .teamMember:hover {
-       background-color: rgba(114, 114, 114, 0.3);
+    background-color: rgba(114, 114, 114, 0.3);
 }
 
 .teamMember a {
@@ -69,15 +64,6 @@
 @media screen and (max-width: 1025px) {
     .teamList {
         width: 100%;
-        grid-template-areas: 
-            "p1 p2";
-
-        background-color: var(--theme-ui-colors-primary);
-        
-    }
-
-    .teamDesc {
-        margin-bottom: 50%;
     }
 
     .link {

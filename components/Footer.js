@@ -21,6 +21,16 @@ const Footer = () => {
                         <Icon glyph="youtube" size={60} alt="The Orpheus Show on YouTube" />
                     </a>
                 </li>
+                <li className={footerStyles.icons}>
+                    <a rel="noreferrer" href="https://www.instagram.com/orpheuspodcast/" target="_blank">
+                        <Icon glyph="instagram" size={60} alt="The Orpheus Show on Instagram" />
+                    </a>
+                </li>
+                <li className={footerStyles.icons}>
+                    <a rel="noreferrer" href="https://twitter.com/OrpheusPodcast" target="_blank">
+                        <Icon glyph="twitter" size={60} alt="The Orpheus Show on Twitter" />
+                    </a>
+                </li>
 
             </ul>
             <h4 className={footerStyles.sub}>The Orpheus Show is run by the community members of Hack Club. We are not affiliated with/endorsed by Hack Club.</h4>
