@@ -4,6 +4,7 @@ import episodeStyles from '../styles/EpisodeContainer.module.css';
 import Cover from '../components/Cover';
 import Episode from '../components/Episode';
 import Team from '../components/Team';
+import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
 
 // buttons
@@ -62,7 +63,6 @@ export default function Home(props) {
 
                 <div className={homeStyles.bottom}>
                     <Team />
-
                     <div className={episodeStyles.container}>
                         <h1>Episodes</h1>
                         <h3 className={homeStyles.subtitle}>Check out the latest episodes from The Orpheus Show!</h3>
@@ -70,10 +70,10 @@ export default function Home(props) {
                             <Episode key={i} details={ep} />
                         ))}
                     </div>
-
                 </div>
-
             </div>
+
+            <Sponsors />
             <Footer />
 
         </div>
