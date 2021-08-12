@@ -9,3 +9,21 @@
     font-size: xx-large;
     font-weight: bolder;
 }
+
+.sponsorDiv {
+    margin: 3rem;
+}
+
+.sponsorLogo {
+    width: 500px;
+}
+
+@media screen and (max-width: 1025px) { 
+    .sponsorDiv {
+        margin: 2rem;
+    }
+    
+    .sponsorLogo {
+        width: 200px;
+    }
+}

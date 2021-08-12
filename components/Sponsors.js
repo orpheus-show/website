@@ -7,6 +7,9 @@ const Sponsors = () => {
             <span className={sponsorStyles.title}>Sponsors</span>
             <br />
             <span className={homeStyles.subtitle}>Big thanks to our sponsors!</span>
+            <div className={sponsorStyles.sponsorDiv}>
+                <img src="/sponsors/sticker-mule-logo-white.png" alt="stickermule" className={sponsorStyles.sponsorLogo}/>
+            </div>
         </div>
     );
 }
