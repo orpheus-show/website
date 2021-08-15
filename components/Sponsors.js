@@ -8,7 +8,7 @@ const Sponsors = () => {
             <br />
             <span className={homeStyles.subtitle}>Big thanks to our sponsors!</span>
             <div className={sponsorStyles.sponsorDiv}>
-                <img src="/sponsors/sticker-mule-logo-white.png" alt="stickermule" className={sponsorStyles.sponsorLogo}/>
+                <a href="https://stickermule.com" target="_blank" rel="noreferrer"><img src="/sponsors/sticker-mule-logo-white.png" alt="stickermule" className={sponsorStyles.sponsorLogo}/></a>
             </div>
         </div>
     );
