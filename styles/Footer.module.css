@@ -4,6 +4,7 @@
     text-align: center;
     color: var(--theme-ui-colors-white);
     padding: 3em;
+    padding-top: 0.5rem;
 }
 
 .container a {
