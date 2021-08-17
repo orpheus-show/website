@@ -17,6 +17,11 @@
 
 .sponsorLogo {
     width: 20%;
+    transition: 200ms ease;
+}
+
+.sponsorDiv:hover {
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 1025px) { 
