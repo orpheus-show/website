@@ -6,15 +6,21 @@ import Image from "next/image";
 const members = [
     {
         "name": "Arav",
-        "desc": "Host",
+        "desc": "Host \n Operations",
         "link": "https://twitter.com/heyarav",
         "image": "arav.jpg"
     },
     {
         "name": "Deven",
-        "desc": "Operations",
+        "desc": "Co-Host \n Operations",
         "link": "https://devenjadhav.com",
         "image": "deven.jpg"
+    },
+    {
+        "name": "Warren",
+        "desc": "Co-Host \n Development",
+        "link": "https://github.com/NebuDev14",
+        "image": "warren.png"
     },
     {
         "name": "Arcade",
@@ -27,12 +33,6 @@ const members = [
         "desc": "Development",
         "link": "https://github.com/arashnrim",
         "image": "arash.jpg"
-    },
-    {
-        "name": "Warren",
-        "desc": "Development",
-        "link": "https://github.com/NebuDev14",
-        "image": "warren.png"
     },
     {
         "name": "Asa",
