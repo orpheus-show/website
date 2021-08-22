@@ -5,3 +5,8 @@
 .container a {
     text-decoration: none;
 }
+
+.epList {
+    display: flex;
+    flex-direction: column;
+}
