@@ -58,6 +58,8 @@ export default function Home(props) {
                             <Slack />
                             <Notes />
                         </div>
+                        <h3 style={{color: 'white'}}>Listen to the latest episode here!</h3>
+                        <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/the-orpheus-show/latest/dark"></iframe>
                     </div>
                 </div>
 
@@ -66,9 +68,11 @@ export default function Home(props) {
                     <div className={episodeStyles.container}>
                         <h1>Episodes</h1>
                         <h3 className={homeStyles.subtitle}>Check out the latest episodes from The Orpheus Show!</h3>
-                        {previousEpisodes.map((ep, i) => (
-                            <Episode key={i} details={ep} />
-                        ))}
+                        <div className={episodeStyles.epList}>
+                            {previousEpisodes.map((ep, i) => (
+                                <Episode key={i} details={ep} />
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
