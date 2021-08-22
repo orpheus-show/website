@@ -56,7 +56,7 @@ const members = [
         "name": "Jason",
         "desc": "Production",
         "link": "https://jasonaa.me/",
-        "image": "placeholder.png"
+        "image": "jason.jpg"
     }
 ]
 
