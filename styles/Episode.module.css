@@ -1,3 +1,8 @@
+.link {
+    width: fit-content;
+    margin: 1rem 0;
+}
+
 .container {
     display: inline-flex;
     align-items: center;
