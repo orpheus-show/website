@@ -34,6 +34,7 @@
     text-align: center;
     transition: 200ms ease;
     width: 9rem;
+    color: var(--theme-ui-colors-text)
 }
 
 .teamMember:hover {
@@ -66,7 +67,7 @@
         width: 100%;
     }
 
-    .link {
+    .teamMember {
         color: #fff;
     }
 }

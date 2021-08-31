@@ -35,7 +35,10 @@
 }
 
 @media screen and (max-width: 1025px) {
-    
+    .container {
+        color: #fff;
+    }
+
     .name {
         max-width: 100%;
     }
