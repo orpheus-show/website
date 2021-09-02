@@ -8,7 +8,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "yarn prettier -c ."
+    "lint": "yarn prettier -w ."
   },
   "dependencies": {
     "@hackclub/meta": "^1.1.32",
