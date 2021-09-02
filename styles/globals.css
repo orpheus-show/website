@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800;900&display=swap');
-html, body {
+html,
+body {
   transition: all 0.25s;
   background-color: var(--theme-ui-colors-sunken);
   height: 100%;
@@ -17,7 +18,7 @@ a {
   text-underline-position: below;
 }
 
-a:hover { 
+a:hover {
   text-decoration-style: wavy;
 }
 

@@ -1,87 +1,94 @@
 .container {
-    padding: 2rem 5rem 2rem 5rem;
-    margin: 0;
-    background: linear-gradient(113.34deg, var(--theme-ui-colors-sunken) 62%, var(--theme-ui-colors-primary) 0%);
+  padding: 2rem 5rem 2rem 5rem;
+  margin: 0;
+  background: linear-gradient(
+    113.34deg,
+    var(--theme-ui-colors-sunken) 62%,
+    var(--theme-ui-colors-primary) 0%
+  );
 }
 
 .landing {
-    display: grid;
-    grid-template-areas: "left right";
+  display: grid;
+  grid-template-areas: 'left right';
 }
 
 .cover {
-    width: 450px;
-    height: 450px;
-    border: 4px solid var(--theme-ui-colors-slate);
-    border-radius: 10px;
+  width: 450px;
+  height: 450px;
+  border: 4px solid var(--theme-ui-colors-slate);
+  border-radius: 10px;
 }
 
 .left {
-    width: 50%;
+  width: 50%;
 }
 
 .right {
-    text-align: center;
+  text-align: center;
 }
 
 .title {
-    font-size: 400%;
-    color: #ff3f58;
-    margin: 3rem 0rem 1rem 0rem;
-    font-weight: 900;
-    line-height: 2ex;
+  font-size: 400%;
+  color: #ff3f58;
+  margin: 3rem 0rem 1rem 0rem;
+  font-weight: 900;
+  line-height: 2ex;
 }
 
 .desc {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
 .subtitle {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .channel {
-    color: #ff3f58;
+  color: #ff3f58;
 }
 
 .about {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .buttonDiv {
-    display: grid;
-    grid-gap: 15px;
-    margin: 3rem 0 3rem 0;
-    grid-template-areas: "b1 b2" "b3 b4";
+  display: grid;
+  grid-gap: 15px;
+  margin: 3rem 0 3rem 0;
+  grid-template-areas: 'b1 b2' 'b3 b4';
 }
 
 @media screen and (max-width: 1025px) {
-    .container {
-        background: linear-gradient(var(--theme-ui-colors-sunken) 40%, var(--theme-ui-colors-primary) 0%);
-    }
-    .cover {
-        height: auto;
-        width: 100%;
-    }
-    .left {
-        width: 100%;
-    }
-    .container {
-        padding: 1rem;
-        height: 100%;
-    }
-    .landing {
-        grid-template-areas: "left" "right";
-    }
-    .title {
-        font-size: 350%;
-    }
-    .subtitle {
-        font-size: 125%;
-    }
-    .bottom {
-        color: #fff;
-    }
+  .container {
+    background: linear-gradient(
+      var(--theme-ui-colors-sunken) 40%,
+      var(--theme-ui-colors-primary) 0%
+    );
+  }
+  .cover {
+    height: auto;
+    width: 100%;
+  }
+  .left {
+    width: 100%;
+  }
+  .container {
+    padding: 1rem;
+    height: 100%;
+  }
+  .landing {
+    grid-template-areas: 'left' 'right';
+  }
+  .title {
+    font-size: 350%;
+  }
+  .subtitle {
+    font-size: 125%;
+  }
+  .bottom {
+    color: #fff;
+  }
 }

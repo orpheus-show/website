@@ -1,50 +1,51 @@
 .container {
-    margin: 0;
-    background-color: var(--theme-ui-colors-primary);
-    text-align: center;
-    color: var(--theme-ui-colors-white);
-    padding: 3em;
-    padding-top: 0.5rem;
+  margin: 0;
+  background-color: var(--theme-ui-colors-primary);
+  text-align: center;
+  color: var(--theme-ui-colors-white);
+  padding: 3em;
+  padding-top: 0.5rem;
 }
 
 .container a {
-    font-weight: 800;
-    color: #ffffff;
+  font-weight: 800;
+  color: #ffffff;
 }
 
 .title {
-    margin: 0;
-    padding: 1rem;
+  margin: 0;
+  padding: 1rem;
 }
 
-.social { 
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: row;
-    padding: 0;
-    margin: 1rem 0 1rem 0;
+.social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  padding: 0;
+  margin: 1rem 0 1rem 0;
 }
 
 .socialItem {
-    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(315deg) brightness(102%) contrast(102%);
-    width: 30pt;
-    height: 30pt;
-    transition: 200ms ease;
-} 
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(315deg)
+    brightness(102%) contrast(102%);
+  width: 30pt;
+  height: 30pt;
+  transition: 200ms ease;
+}
 
 .sub {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .icons:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 @media screen and (max-width: 1025px) {
-    .title {
-        padding: 0;
-    }
+  .title {
+    padding: 0;
+  }
 }
