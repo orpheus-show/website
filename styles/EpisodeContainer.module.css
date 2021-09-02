@@ -1,12 +1,12 @@
 .container {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .container a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .epList {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }

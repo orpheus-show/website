@@ -1,6 +1,6 @@
 import { IconButton, useColorMode } from 'theme-ui'
 
-const ColorSwitcher = (props) => {
+const ColorSwitcher = props => {
   const [mode, setMode] = useColorMode()
   return (
     <IconButton
@@ -22,25 +22,18 @@ const ColorSwitcher = (props) => {
       {...props}
     >
       <svg viewBox="0 0 32 32" width={24} height={24} className="icon">
-        <circle
-          cx={16}
-          cy={16}
-          r={14}
-          fill="none"
-          strokeWidth={4}
-        />
+        <circle cx={16} cy={16} r={14} fill="none" strokeWidth={4} />
         <path d="M 16 0 A 16 16 0 0 0 16 32 z" />
       </svg>
 
       <style jsx>
-      {`
-        .icon {
-          fill: var(--theme-ui-colors-text);
-          stroke: var(--theme-ui-colors-text);
-        }
-      `}
+        {`
+          .icon {
+            fill: var(--theme-ui-colors-text);
+            stroke: var(--theme-ui-colors-text);
+          }
+        `}
       </style>
-
     </IconButton>
   )
 }

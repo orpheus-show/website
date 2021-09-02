@@ -1,28 +1,27 @@
-import axios from 'axios';
+import axios from 'axios'
 
-const Spotify = require('node-spotify-api');
-require('dotenv').config();
+const Spotify = require('node-spotify-api')
+require('dotenv').config()
 
 export default function handler(req, res) {
-    if (req.method == 'GET') {
+  if (req.method == 'GET') {
+    const spotify = new Spotify({
+      id: process.env.REACT_APP_CLIENT_ID,
+      secret: process.env.REACT_APP_CLIENT_SECRET
+    })
 
-        const spotify = new Spotify({
-            id: process.env.REACT_APP_CLIENT_ID,
-            secret: process.env.REACT_APP_CLIENT_SECRET
-        });
-
-        spotify
-            .request('https://api.spotify.com/v1/shows/3q6wJccR9gjQZgOjr23PEJ?market=US')
-            .then(function (data) {
-                res.status(200).json({ data })
-            })
-            .catch(function (err) {
-                console.log("Error: " + err);
-                res.status(500)
-            });
-    }
-
-    else {
-        res.status(400);
-    }
+    spotify
+      .request(
+        'https://api.spotify.com/v1/shows/3q6wJccR9gjQZgOjr23PEJ?market=US'
+      )
+      .then(function (data) {
+        res.status(200).json({ data })
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err)
+        res.status(500)
+      })
+  } else {
+    res.status(400)
+  }
 }

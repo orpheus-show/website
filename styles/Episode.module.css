@@ -1,49 +1,49 @@
 .link {
-    width: fit-content;
-    margin: 1rem 0;
+  width: fit-content;
+  margin: 1rem 0;
 }
 
 .container {
-    display: inline-flex;
-    align-items: center;
-    transition: 100ms ease;
-    text-align: left;
-    padding: 1rem 3rem 1rem 1rem;
-    border-radius: 20px;
-    color: var(--theme-ui-colors-text);
-    transition: 200ms ease;
+  display: inline-flex;
+  align-items: center;
+  transition: 100ms ease;
+  text-align: left;
+  padding: 1rem 3rem 1rem 1rem;
+  border-radius: 20px;
+  color: var(--theme-ui-colors-text);
+  transition: 200ms ease;
 }
 .container:hover {
-   background-color: rgba(114, 114, 114, 0.3);
+  background-color: rgba(114, 114, 114, 0.3);
 }
 
 .episodeThumbnail {
-    width: 100px;
-    height: 100px;
-    margin-right: 2rem;
-    border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  margin-right: 2rem;
+  border-radius: 20px;
 }
 
 .name {
-    margin: 0;
-    max-width: 75%;
+  margin: 0;
+  max-width: 75%;
 }
 
 .date {
-    margin: 0;
-    max-width: 75%;
+  margin: 0;
+  max-width: 75%;
 }
 
 @media screen and (max-width: 1025px) {
-    .container {
-        color: #fff;
-    }
+  .container {
+    color: #fff;
+  }
 
-    .name {
-        max-width: 100%;
-    }
+  .name {
+    max-width: 100%;
+  }
 
-    .date {
-        max-width: 100%;
-    }
+  .date {
+    max-width: 100%;
+  }
 }
