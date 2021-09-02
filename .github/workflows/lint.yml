@@ -19,6 +19,3 @@ jobs:
           git commit -a -m "Lint code"
           git push
         continue-on-error: true
-      
-
-    
