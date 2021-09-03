@@ -6,7 +6,7 @@ The Orpheus Show is a community initiative by members of the Hack Club Slack. Th
 
 ## Getting started
 
-To get started, follow the steps below. If copying, select, copy, and paste the portion of the code *after* the dollar sign symbol (`$`) .
+To get started, follow the steps below. If copying, select, copy, and paste the portion of the code _after_ the dollar sign symbol (`$`) .
 
 1. Download the code to your computer through cloning the repository.
 

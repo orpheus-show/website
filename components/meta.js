@@ -25,7 +25,12 @@ export default function Meta({
       <meta name="msapplication-TileColor" content={theme.colors.primary} />
       <meta name="theme-color" content={theme.colors.primary} />
 
-      <script async defer data-website-id="f3500e20-c36f-4f37-bb04-232583348397" src="https://ce02c2f058d3.up.railway.app/umami.js"></script>
+      <script
+        async
+        defer
+        data-website-id="f3500e20-c36f-4f37-bb04-232583348397"
+        src="https://ce02c2f058d3.up.railway.app/umami.js"
+      ></script>
     </Head>
   )
 }
