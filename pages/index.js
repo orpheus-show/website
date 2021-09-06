@@ -68,19 +68,8 @@ export default function Home(props) {
               <Slack />
               <Notes />
             </div>
-          { //<h3 style={{ color: 'white' }}>
-             // Listen to the latest episode here!
-           // </h3>
-
-          // <!--- <iframe
-           //   src="https://anchor.fm/the-orpheus-show/embed"
-         //     height="200"
-         //     width="105%"
-          //    frameborder="no"
-          //    scrolling="no"
-          //  ></iframe>
-         // </div> }
-       // </div>
+          </div>
+        </div>
 
         <div className={homeStyles.bottom}>
           <Team />
