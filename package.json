@@ -9,6 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "yarn prettier -w ."
+    "add": "git add ."
   },
   "dependencies": {
     "@hackclub/meta": "^1.1.32",
