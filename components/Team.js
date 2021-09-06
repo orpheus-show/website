@@ -6,7 +6,7 @@ import Image from 'next/image'
 const members = [
   {
     name: 'Arav',
-    desc: 'Host \n Operations',
+    desc: 'Co-Host \n Operations',
     link: 'https://twitter.com/heyarav',
     image: 'arav.jpg'
   },
@@ -18,7 +18,7 @@ const members = [
   },
   {
     name: 'Warren',
-    desc: 'Co-Host \n Development',
+    desc: 'Co-Host/Operations \n Development',
     link: 'https://github.com/NebuDev14',
     image: 'warren.png'
   },
