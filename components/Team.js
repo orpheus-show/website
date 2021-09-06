@@ -58,7 +58,7 @@ const members = [
     link: 'https://jasonaa.me/',
     image: 'jason.jpg'
   },
-   {
+  {
     name: 'Orpheus',
     desc: 'Team Mascot',
     link: 'https://hackclub.com',
