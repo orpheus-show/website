@@ -9,9 +9,7 @@ export default function ViewNotes() {
   return (
     <div className={styles.button}>
       <button className={styles.btn} onClick={toggle}>
-        <a href="/notes"> 
-        View the Notes
-        </a>
+        <a href="/notes">View the Notes</a>
       </button>
     </div>
   )
