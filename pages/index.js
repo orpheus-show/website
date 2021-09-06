@@ -71,8 +71,14 @@ export default function Home(props) {
             <h3 style={{ color: 'white' }}>
               Listen to the latest episode here!
             </h3>
-           
-            <iframe src="https://anchor.fm/the-orpheus-show/embed" height="200" width="105%" frameborder="no" scrolling="no"></iframe>
+
+            <iframe
+              src="https://anchor.fm/the-orpheus-show/embed"
+              height="200"
+              width="105%"
+              frameborder="no"
+              scrolling="no"
+            ></iframe>
           </div>
         </div>
 
@@ -92,7 +98,6 @@ export default function Home(props) {
         </div>
       </div>
 
-  
       <Footer />
     </div>
   )
