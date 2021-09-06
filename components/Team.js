@@ -18,7 +18,7 @@ const members = [
   },
   {
     name: 'Warren',
-    desc: 'Co-Host/Operations \n Development',
+    desc: 'Co-Host/ops \n Development',
     link: 'https://github.com/NebuDev14',
     image: 'warren.png'
   },
@@ -50,7 +50,7 @@ const members = [
     name: 'Rebecca',
     desc: 'Operations',
     link: 'https://rbccawang.com/',
-    image: 'placeholder.png'
+    image: 'breadrolls.png'
   },
   {
     name: 'Jason',
