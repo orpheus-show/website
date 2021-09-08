@@ -25,6 +25,34 @@
   font-weight: 500;
 }
 
+.noteCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.titleDiv {
+  background-color: var(--theme-ui-colors-green);
+  margin: 0;
+  width: 100%;
+  padding: 1.25rem;
+  border-radius: 20px 20px 0 0;
+}
+
+.subDiv {
+  background-color: #ff3f58;
+  width: 100%;
+  margin: 0;
+  padding: 0.2rem;
+  border-radius: 0 0 20px 20px;
+}
+
+.cardSub {
+  margin: 0;
+}
+
 @media screen and (max-width: 1025px) {
   .title {
     font-size: 350%;

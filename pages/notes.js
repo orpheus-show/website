@@ -1,5 +1,6 @@
-import notesStyles from '../styles/Notes.module.css'
+import NoteCard from '../components/NoteCard';
 
+import notesStyles from '../styles/Notes.module.css'
 import Link from 'next/link'
 
 const notes = [
@@ -24,6 +25,8 @@ export default function Notes() {
       <h3 className={notesStyles.subtitle}>
         Our documents for prep and episode planning, all open sourced!
       </h3>
+
+      <NoteCard />
     </div>
     
   )
