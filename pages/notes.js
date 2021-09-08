@@ -5,18 +5,18 @@ import Link from 'next/link'
 
 const allNotes = [
   {
-    title: "Max Wofford",
-    sub: "Episode 1"
-  }, 
-  {
-    title: "Zach Latta",
-    sub: "Episode 2"
+    title: 'Max Wofford',
+    sub: 'Episode 1'
   },
+  {
+    title: 'Zach Latta',
+    sub: 'Episode 2'
+  }
 ]
 
 const test = {
-  title: "help",
-  sub: "test"
+  title: 'help',
+  sub: 'test'
 }
 
 export default function Notes() {
@@ -37,8 +37,7 @@ export default function Notes() {
         {allNotes.map((note, i) => (
           <NoteCard notes={note} key={i} />
         ))}
-        
-      </div> 
+      </div>
     </div>
   )
 }
