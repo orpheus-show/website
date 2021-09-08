@@ -53,6 +53,12 @@
   margin: 0;
 }
 
+.cardDiv {
+  display: grid;
+  grid-template-areas: 
+    "c1 c2 c3";
+}
+
 @media screen and (max-width: 1025px) {
   .title {
     font-size: 350%;

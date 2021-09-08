@@ -3,7 +3,21 @@ import NoteCard from '../components/NoteCard'
 import notesStyles from '../styles/Notes.module.css'
 import Link from 'next/link'
 
-const notes = [{}, {}]
+const allNotes = [
+  {
+    title: "Max Wofford",
+    sub: "Episode 1"
+  }, 
+  {
+    title: "Zach Latta",
+    sub: "Episode 2"
+  },
+]
+
+const test = {
+  title: "help",
+  sub: "test"
+}
 
 export default function Notes() {
   return (
@@ -19,7 +33,12 @@ export default function Notes() {
         Our documents for prep and episode planning, all open sourced!
       </h3>
 
-      <NoteCard />
+      <div className={notesStyles.cardDiv}>
+        {allNotes.map((note, i) => (
+          <NoteCard notes={note} key={i} />
+        ))}
+        
+      </div> 
     </div>
   )
 }
