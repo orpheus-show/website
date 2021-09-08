@@ -1,4 +1,4 @@
-import NoteCard from '../components/NoteCard';
+import NoteCard from '../components/NoteCard'
 
 import notesStyles from '../styles/Notes.module.css'
 import Link from 'next/link'
