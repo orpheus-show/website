@@ -1,11 +1,7 @@
-import noteStyles from '../styles/Notes.module.css';
+import noteStyles from '../styles/Notes.module.css'
 
 const NoteCard = () => {
-    return (
-        <div>
-        
-        </div>
-    );
+  return <div></div>
 }
 
-export default NoteCard;
+export default NoteCard

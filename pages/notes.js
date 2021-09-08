@@ -2,14 +2,7 @@ import notesStyles from '../styles/Notes.module.css'
 
 import Link from 'next/link'
 
-const notes = [
-  {
-
-  },
-  {
-
-  }
-]
+const notes = [{}, {}]
 
 export default function Notes() {
   return (
@@ -25,6 +18,5 @@ export default function Notes() {
         Our documents for prep and episode planning, all open sourced!
       </h3>
     </div>
-    
   )
 }
