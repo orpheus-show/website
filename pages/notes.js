@@ -5,20 +5,18 @@ import Link from 'next/link'
 
 const allNotes = [
   {
-    title: "Max Wofford",
-    sub: "Episode 1"
+    title: 'Max Wofford',
+    sub: 'Episode 1'
   },
   {
-    title: "Zach Latta",
-    sub: "Episode 2"
+    title: 'Zach Latta',
+    sub: 'Episode 2'
   },
   {
-    title: "Zach Fogg",
-    sub: "Episode 3"
-  },
+    title: 'Zach Fogg',
+    sub: 'Episode 3'
+  }
 ]
-
-
 
 export default function Notes() {
   return (
