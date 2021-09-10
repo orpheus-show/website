@@ -2,14 +2,14 @@ import noteStyles from '../styles/Notes.module.css'
 
 function NoteCard({ notes }) {
   return (
-    <div className={noteStyles.noteCard}>
+    <a href={notes.link} className={noteStyles.noteCard} target="_blank">
       <div className={noteStyles.titleDiv}>
         <h1 className={noteStyles.cardTitle}>{notes.title}</h1>
       </div>
       <div className={noteStyles.subDiv}>
         <h1 className={noteStyles.cardSub}>{notes.sub}</h1>
       </div>
-    </div>
+    </a>
   )
 }
 

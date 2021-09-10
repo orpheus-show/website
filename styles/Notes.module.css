@@ -32,6 +32,7 @@
   flex-direction: column;
   color: #fff;
   margin: 2rem;
+  text-decoration: none;
 }
 
 .titleDiv {
