@@ -33,6 +33,12 @@
   color: #fff;
   margin: 2rem;
   text-decoration: none;
+  transition: 300ms ease;
+}
+
+.noteCard:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .titleDiv {
