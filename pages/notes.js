@@ -12,6 +12,10 @@ const allNotes = [
     title: "Zach Latta",
     sub: "Episode 2"
   },
+  {
+    title: "Zach Fogg",
+    sub: "Episode 3"
+  },
 ]
 
 const test = {

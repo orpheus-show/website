@@ -31,6 +31,7 @@
   justify-content: center;
   flex-direction: column;
   color: #fff;
+  margin: 2rem;
 }
 
 .titleDiv {
@@ -57,6 +58,7 @@
   display: grid;
   grid-template-areas: 
     "c1 c2 c3";
+  grid-auto-columns: 1fr;
 }
 
 @media screen and (max-width: 1025px) {
