@@ -57,8 +57,7 @@
 
 .cardDiv {
   display: grid;
-  grid-template-areas: 
-    "c1 c2 c3";
+  grid-template-areas: 'c1 c2 c3';
   grid-auto-columns: 1fr;
 }
 

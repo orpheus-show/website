@@ -21,8 +21,6 @@ const allNotes = [
   },
 ]
 
-
-
 export default function Notes() {
   return (
     <div className={notesStyles.container}>
