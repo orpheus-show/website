@@ -1,6 +1,6 @@
 import noteStyles from '../styles/Notes.module.css'
 
-function NoteCard ({notes}) {
+function NoteCard({ notes }) {
   return (
     <div className={noteStyles.noteCard}>
       <div className={noteStyles.titleDiv}>

@@ -56,9 +56,13 @@
 
 .cardDiv {
   display: grid;
+<<<<<<< HEAD
   grid-template-areas: 
     "c1 c2 c3";
   grid-auto-columns: 1fr;
+=======
+  grid-template-areas: 'c1 c2 c3';
+>>>>>>> e4e80b0ee4a6669011d0df56f10715f4716055a7
 }
 
 @media screen and (max-width: 1025px) {

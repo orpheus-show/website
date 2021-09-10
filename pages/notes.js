@@ -7,7 +7,7 @@ const allNotes = [
   {
     title: "Max Wofford",
     sub: "Episode 1"
-  }, 
+  },
   {
     title: "Zach Latta",
     sub: "Episode 2"
@@ -18,10 +18,7 @@ const allNotes = [
   },
 ]
 
-const test = {
-  title: "help",
-  sub: "test"
-}
+
 
 export default function Notes() {
   return (
@@ -41,8 +38,7 @@ export default function Notes() {
         {allNotes.map((note, i) => (
           <NoteCard notes={note} key={i} />
         ))}
-        
-      </div> 
+      </div>
     </div>
   )
 }
