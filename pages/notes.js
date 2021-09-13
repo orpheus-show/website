@@ -7,7 +7,7 @@ const allNotes = [
   {
     title: 'Max Wofford',
     sub: 'Episode 1',
-    link: 'https://devenjadhav.notion.site/Max-af941c7f9bd54795be044dd215a2fdd7'
+    link: 'https://devenjadhav.notion.site/Max-Interview-Details-be41671482e349abbc73e69965dd44b9'
   },
   {
     title: 'Zach Latta',
