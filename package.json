@@ -16,14 +16,16 @@
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^10.0.4",
     "axios": "^0.21.2",
+
+    "axios": "^0.21.4",
     "dotenv": "^10.0.0",
     "dotenv-webpack": "^7.0.3",
     "next": "^11.1.2",
     "node-spotify-api": "^1.1.1",
-    "prettier": "^2.3.2",
+    "prettier": "^2.4.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "supercons": "^0.0.1",
-    "theme-ui": "^0.11.1"
+    "theme-ui": "^0.11.2"
   }
 }
