@@ -2,10 +2,10 @@ import homeStyles from '../styles/Home.module.css'
 import episodeStyles from '../styles/EpisodeContainer.module.css'
 
 import Cover from '../components/Cover'
-import Episode from '../components/Episode'
+import Episode from '../components/Episode';
 import Team from '../components/Team'
 import Sponsors from '../components/Sponsors'
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
 
 // buttons
 import ListenNow from '../components/buttons/ListenNow'
