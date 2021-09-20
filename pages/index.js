@@ -54,7 +54,11 @@ export default function Home(props) {
             </div>
             <h3 className={homeStyles.lead}>
               If you haven't already,{' '}
-              <a href="https://hackclub.com/slack/" target="_blank">
+              <a
+                href="https://hackclub.com/slack/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 join the Hack Club community
               </a>{' '}
               today!
@@ -75,11 +79,11 @@ export default function Home(props) {
             <iframe
               width="100%"
               height="180"
-              frameborder="no"
+              frameBorder="no"
               scrolling="no"
               seamless
               src="https://share.transistor.fm/e/the-orpheus-show/latest/dark"
-            ></iframe>
+            />
           </div>
         </div>
 

@@ -73,6 +73,7 @@ const Team = () => {
           href="https://hackclub.slack.com/archives/C029KLH2UCU"
           target="_blank"
           className={teamStyles.link}
+          rel="noreferrer"
         >
           Slack channel
         </a>{' '}
