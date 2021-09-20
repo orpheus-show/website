@@ -4,7 +4,6 @@ import globalStyles from '../styles/globals.css'
 import theme from '../lib/theme'
 import { ThemeProvider } from 'theme-ui'
 import ColorSwitcher from '../components/color-switcher'
-import Footer from '../components/Footer'
 import Meta from '../components/meta'
 
 export default class App extends NextApp {
