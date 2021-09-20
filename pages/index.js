@@ -4,7 +4,6 @@ import episodeStyles from '../styles/EpisodeContainer.module.css'
 import Cover from '../components/Cover'
 import Episode from '../components/Episode'
 import Team from '../components/Team'
-import Sponsors from '../components/Sponsors'
 import Footer from '../components/Footer'
 
 // buttons
@@ -103,7 +102,6 @@ export default function Home(props) {
         </div>
       </div>
 
-      <Sponsors />
       <Footer />
     </div>
   )

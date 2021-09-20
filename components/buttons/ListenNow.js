@@ -63,15 +63,6 @@ export default function ListenNow() {
         >
           Google{' '}
         </a>
-        <hr />
-        <a
-          rel="noreferrer"
-          onClick={toggle}
-          target="_blank"
-          href="https://feeds.transistor.fm/the-orpheus-show"
-        >
-          RSS Feed
-        </a>
       </div>
     </div>
   )
