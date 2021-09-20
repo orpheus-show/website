@@ -8,7 +8,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "yarn prettier -w ."
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "@hackclub/meta": "^1.1.32",
@@ -21,10 +22,21 @@
     "dotenv-webpack": "^7.0.3",
     "next": "^11.1.2",
     "node-spotify-api": "^1.1.1",
-    "prettier": "^2.4.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "supercons": "^0.0.1",
     "theme-ui": "^0.11.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1"
+  },
+  "lint-staged": {
+    "*.{js, jsx, ts, tsx}": "yarn lint:fix"
   }
 }

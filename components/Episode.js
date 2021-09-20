@@ -6,6 +6,7 @@ function Episode({ details }) {
       href={details.external_urls.spotify}
       target="_blank"
       className={episodeStyles.link}
+      rel="noreferrer"
     >
       <div className={episodeStyles.container}>
         <img
