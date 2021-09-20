@@ -16,4 +16,4 @@ function NoteCard({ notes }) {
   )
 }
 
-export default NoteCard;
+export default NoteCard
