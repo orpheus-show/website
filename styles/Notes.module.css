@@ -7,6 +7,7 @@
   align-items: center;
   align-self: center;
   text-align: center;
+  background-color: var(--theme-ui-colors-sunken);
 }
 
 .title {
@@ -72,6 +73,11 @@
 }
 
 @media screen and (max-width: 1025px) {
+
+  .container {
+    height: 100%;
+  }
+
   .title {
     font-size: 350%;
   }
@@ -80,5 +86,22 @@
   }
   .container {
     padding: 0 1rem;
+  }
+
+  .cardDiv {
+    grid-template-areas: 
+      'c1';
+  }
+
+  .cardSub {
+    font-size: 175%;
+  }
+
+  .noteCard {
+    width: 80%;
+  }
+
+  .img {
+    width: 100%;
   }
 }

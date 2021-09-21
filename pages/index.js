@@ -75,14 +75,6 @@ export default function Home(props) {
             <h3 style={{ color: 'white' }}>
               Listen to the latest episode here!
             </h3>
-            <iframe
-              width="100%"
-              height="180"
-              frameBorder="no"
-              scrolling="no"
-              seamless
-              src="https://share.transistor.fm/e/the-orpheus-show/latest/dark"
-            />
           </div>
         </div>
 
