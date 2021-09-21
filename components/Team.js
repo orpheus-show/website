@@ -5,17 +5,19 @@ import Image from 'next/image'
 
 const members = [
   {
-    name: 'Arav',
-    desc: 'Co-Host \n Operations',
-    link: 'https://twitter.com/heyarav',
-    image: 'arav.jpg'
-  },
-  {
     name: 'Deven',
     desc: 'Co-Host \n Operations',
     link: 'https://devenjadhav.com',
     image: 'deven.jpg'
+  }, 
+
+{
+    name: 'Arav',
+    desc: 'Co-Host',
+    link: 'https://twitter.com/heyarav',
+    image: 'arav.jpg'
   },
+ 
   {
     name: 'Warren',
     desc: 'Co-Host/ops \n Development',
