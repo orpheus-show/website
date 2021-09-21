@@ -61,6 +61,10 @@
   grid-template-areas: 'b1 b2' 'b3 b4';
 }
 
+.iframe {
+  border: none;
+}
+
 @media screen and (max-width: 1025px) {
   .container {
     background: linear-gradient(
@@ -90,5 +94,9 @@
   }
   .bottom {
     color: #fff;
+  }
+
+  .iframe {
+    width: 100%;
   }
 }
