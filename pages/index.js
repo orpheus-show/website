@@ -75,7 +75,7 @@ export default function Home(props) {
             <h3 style={{ color: 'white' }}>
               Listen to the latest episode here!
             </h3>
-            <iframe src="https://open.spotify.com/embed/show/3q6wJccR9gjQZgOjr23PEJ?theme=0" width="110%" height="300" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" className={homeStyles.iframe}></iframe>
+            <iframe src="https://open.spotify.com/embed/show/3q6wJccR9gjQZgOjr23PEJ?theme=0" width="110%" height="300" className={homeStyles.iframe}></iframe>
           </div>
         </div>
 
