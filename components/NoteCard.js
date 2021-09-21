@@ -1,4 +1,5 @@
 import noteStyles from '../styles/Notes.module.css'
+import Image from 'next/image'
 
 function NoteCard({ notes }) {
   return (
@@ -8,7 +9,13 @@ function NoteCard({ notes }) {
       target="_blank"
       rel="noreferrer"
     >
-      <img src={notes.image} className={noteStyles.img} />
+      <Image
+        src={notes.image}
+        height={270}
+        width={350}
+        className={noteStyles.img}
+        alt={`Image of ${notes.title}`}
+      />
       <div className={noteStyles.subDiv}>
         <h1 className={noteStyles.cardSub}>{notes.title}</h1>
       </div>

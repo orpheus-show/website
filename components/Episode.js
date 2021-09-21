@@ -16,6 +16,7 @@ function Episode({ details }) {
             width={100}
             height={100}
             className={episodeStyles.episodeThumbnailImage}
+            alt={`Episode cover`}
             loading={'lazy'}
           />
         </div>
