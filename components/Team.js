@@ -95,6 +95,7 @@ const Team = () => {
                 alt={`${member.name}'s profile picture`}
                 src={`/team-members/${member.image}`}
                 className={teamStyles.teamPFP}
+                loading={'lazy'}
               />
 
               <div className={teamStyles.info}>
