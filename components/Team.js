@@ -13,7 +13,7 @@ const members = [
 
 {
     name: 'Arav',
-    desc: 'Co-Host',
+    desc: 'Co-Host \n Operations',
     link: 'https://twitter.com/heyarav',
     image: 'arav.jpg'
   },
