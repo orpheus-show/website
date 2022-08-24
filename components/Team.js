@@ -10,6 +10,12 @@ const members = [
     link: 'https://devenjadhav.com',
     image: 'deven.jpg'
   }, 
+    {
+    name: 'Jason',
+    desc: 'Co-host/roduction',
+    link: 'https://jasonaa.me/',
+    image: 'jason.jpg'
+  },
 
 {
     name: 'Arav',
@@ -53,12 +59,6 @@ const members = [
     desc: 'Operations',
     link: 'https://rbccawang.com/',
     image: 'breadrolls.png'
-  },
-  {
-    name: 'Jason',
-    desc: 'Production',
-    link: 'https://jasonaa.me/',
-    image: 'jason.jpg'
   },
   {
     name: 'Orpheus',
