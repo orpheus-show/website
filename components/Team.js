@@ -48,6 +48,12 @@ const members = [
     link: 'https://anglesideangle.github.io',
     image: 'asa.png'
   },
+   {
+    name: 'Reese',
+    desc: 'Expert',
+    link: 'https://reeseric.ci',
+    image: 'reesericci.png'
+  },
   {
     name: 'Hugo',
     desc: 'Marketing',
@@ -60,6 +66,7 @@ const members = [
     link: 'https://rbccawang.com/',
     image: 'breadrolls.png'
   },
+
   {
     name: 'Orpheus',
     desc: 'Team Mascot',
