@@ -32,15 +32,6 @@ export default function ListenNow() {
           rel="noreferrer"
           onClick={toggle}
           target="_blank"
-          href="https://www.youtube.com/channel/UCTES1rgjcKBjSUSJRpyLPzA"
-        >
-          YouTube
-        </a>
-        <hr />
-        <a
-          rel="noreferrer"
-          onClick={toggle}
-          target="_blank"
           href="https://podcasts.apple.com/us/podcast/the-orpheus-show/id1579785488"
         >
           Apple Podcasts
