@@ -22,6 +22,12 @@ const allNotes = [
     sub: 'Episode 3',
     link: 'https://devenjadhav.notion.site/ZFogg-c16aacb03369415c9a7beb4c8823dd98',
     image: '/note-assets/zfogg.png'
+  },
+   {
+    title: 'Ekaterina',
+    sub: 'Episode 4',
+    link: 'https://devenjadhav.notion.site/ZFogg-c16aacb03369415c9a7beb4c8823dd98',
+    image: 'https://ca.slack-edge.com/T0266FRGM-UM19V8U79-fdd7ff6d4c23-512'
   }
 ]
 
