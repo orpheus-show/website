@@ -63,6 +63,17 @@ export default function ListenNow() {
         >
           Google{' '}
         </a>
+         <hr />
+        <a
+          rel="noreferrer"
+          onClick={toggle}
+          target="_blank"
+          href="https://podcastindex.org/podcast/4111905"
+        >
+            The Podcast Index
+           </a>
+
+
       </div>
     </div>
   )
