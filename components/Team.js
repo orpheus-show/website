@@ -12,7 +12,7 @@ const members = [
   }, 
     {
     name: 'Jason',
-    desc: 'Co-host/roduction',
+    desc: 'Co-host/Production',
     link: 'https://jasonaa.me/',
     image: 'jason.jpg'
   },
