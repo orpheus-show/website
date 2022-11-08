@@ -61,6 +61,12 @@ const members = [
     image: 'breadrolls.png'
   },
   {
+    name: 'Reese',
+    desc: 'Expert',
+    link: 'https://reeseric.ci',
+    image: 'reesericci.png'
+  },
+  {
     name: 'Orpheus',
     desc: 'Team Mascot',
     link: 'https://hackclub.com',
