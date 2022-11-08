@@ -72,7 +72,7 @@ export default function Home(props) {
               <Slack />
               <Notes />
             </div>
-            <h3 style={{ color: 'white' }}>
+            <h3 style={homeStyles.episodea}>
               Listen to the latest episode here!
             </h3>
             <iframe
