@@ -7,12 +7,12 @@ const members = [
   {
     name: 'Arav',
     desc: 'Co-Host \n Operations',
-    link: 'https://twitter.com/heyarav',
+    link: 'https://github.com/tregsthedev',
     image: 'arav.jpg'
   },
   {
     name: 'Reese',
-    desc: 'Expert',
+    desc: 'Co-host /n Operations',
     link: 'https://reeseric.ci',
     image: 'reesericci.png'
   },
@@ -25,7 +25,7 @@ const members = [
   },
 
 
-  
+
   {
     name: 'Arash',
     desc: 'Development',
