@@ -113,6 +113,30 @@ const Team = () => {
           </li>
         ))}
       </ul>
+      <br />
+      <h2> Former team members </h2>
+      <h3> The orpheus show would not be possible without theese people, who contributed and helped produce the show when it first started </h3>
+      <ul className={teamStyles.teamList}>
+        {former_members.map((fmember, i) => (
+          <li className={teamStyles.teamMember} key={i}>
+            <a rel="noreferrer" href={former_fmember.link} target="_blank">
+              <Image
+                height={75}
+                width={75}
+                alt={`${former_fmember.name}'s profile picture`}
+                src={`/team-members/${former_fmember.image}`}
+                className={teamStyles.teamPFP}
+              />
+
+              <div className={teamStyles.info}>
+                <h3 className={teamStyles.teamName}>{former_fmember.name}</h3>
+                <h4 className={teamStyles.teamDesc}>{former_fmember.desc}</h4>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+  
     </div>
   )
 }
