@@ -115,7 +115,7 @@ const Team = () => {
       </ul>
       <br />
       <h2> Former team members </h2>
-      <h3> The orpheus show would not be possible without theese people, who contributed and helped produce the show when it first started </h3>
+      <h3> Thanks to our amazing former team members that made The Orpheus Show possible! </h3>
       <ul className={teamStyles.teamList}>
         {former_members.map((former_fmember, i) => (
           <li className={teamStyles.teamMember} key={i}>
