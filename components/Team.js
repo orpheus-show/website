@@ -5,8 +5,20 @@ import Image from 'next/image'
 
 const members = [
   {
-    name: 'Deven',
+    name: 'Arav',
     desc: 'Co-Host \n Operations',
+    link: 'https://twitter.com/heyarav',
+    image: 'arav.jpg'
+  },
+  {
+    name: 'Reese',
+    desc: 'Expert',
+    link: 'https://reeseric.ci',
+    image: 'reesericci.png'
+  },
+  {
+    name: 'Deven',
+    desc: ' ex Co-Host \n Operations',
     link: 'https://devenjadhav.com',
     image: 'deven.jpg'
   }, 
@@ -17,22 +29,16 @@ const members = [
     image: 'jason.jpg'
   },
 
-{
-    name: 'Arav',
-    desc: 'Co-Host \n Operations',
-    link: 'https://twitter.com/heyarav',
-    image: 'arav.jpg'
-  },
- 
+
   {
     name: 'Warren',
-    desc: 'Co-Host/ops \n Development',
+    desc: ' ex Co-Host/ops \n Development',
     link: 'https://github.com/NebuDev14',
     image: 'warren.png'
   },
   {
     name: 'Arcade',
-    desc: 'Development',
+    desc: ' ex Development',
     link: 'https://github.com/l3gacyb3ta',
     image: 'arc.jpg'
   },
@@ -44,28 +50,12 @@ const members = [
   },
   {
     name: 'Asa',
-    desc: 'Development',
+    desc: ' ex  Development',
     link: 'https://anglesideangle.github.io',
     image: 'asa.png'
   },
-   {
-    name: 'Reese',
-    desc: 'Expert',
-    link: 'https://reeseric.ci',
-    image: 'reesericci.png'
-  },
-  {
-    name: 'Hugo',
-    desc: 'Marketing',
-    link: 'http://twitter.com/rpitechguy',
-    image: 'corgi.png'
-  },
-  {
-    name: 'Rebecca',
-    desc: 'Operations',
-    link: 'https://rbccawang.com/',
-    image: 'breadrolls.png'
-  },
+  
+
 
   {
     name: 'Orpheus',
