@@ -91,7 +91,7 @@ const Team = () => {
         >
           Slack channel
         </a>{' '}
-        We're currently looking for new people to help us produce the show!
+     and find something to help with!
       </h3>
       <ul className={teamStyles.teamList}>
         {members.map((member, i) => (
