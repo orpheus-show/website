@@ -117,7 +117,7 @@ const Team = () => {
       <h2> Former team members </h2>
       <h3> The orpheus show would not be possible without theese people, who contributed and helped produce the show when it first started </h3>
       <ul className={teamStyles.teamList}>
-        {former_members.map((fmember, i) => (
+        {former_members.map((former_fmember, i) => (
           <li className={teamStyles.teamMember} key={i}>
             <a rel="noreferrer" href={former_fmember.link} target="_blank">
               <Image
