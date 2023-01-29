@@ -16,12 +16,7 @@ const members = [
     link: 'https://reeseric.ci',
     image: 'reesericci.png'
   },
-  {
-    name: 'Deven',
-    desc: ' ex Co-Host \n Operations',
-    link: 'https://devenjadhav.com',
-    image: 'deven.jpg'
-  }, 
+  
     {
     name: 'Jason',
     desc: 'Co-host/Production',
@@ -30,6 +25,32 @@ const members = [
   },
 
 
+  
+  {
+    name: 'Arash',
+    desc: 'Development',
+    link: 'https://github.com/arashnrim',
+    image: 'arash.jpg'
+  },
+ 
+  
+
+
+  {
+    name: 'Orpheus',
+    desc: 'Team Mascot',
+    link: 'https://hackclub.com',
+    image: 'orpheus.png'
+  }
+]
+
+const former_members = [
+   {
+    name: 'Asa',
+    desc: ' ex  Development',
+    link: 'https://anglesideangle.github.io',
+    image: 'asa.png'
+  },
   {
     name: 'Warren',
     desc: ' ex Co-Host/ops \n Development',
@@ -42,28 +63,16 @@ const members = [
     link: 'https://github.com/l3gacyb3ta',
     image: 'arc.jpg'
   },
-  {
-    name: 'Arash',
-    desc: 'Development',
-    link: 'https://github.com/arashnrim',
-    image: 'arash.jpg'
-  },
-  {
-    name: 'Asa',
-    desc: ' ex  Development',
-    link: 'https://anglesideangle.github.io',
-    image: 'asa.png'
-  },
+    {
+    name: 'Deven',
+    desc: ' ex Co-Host \n Operations',
+    link: 'https://devenjadhav.com',
+    image: 'deven.jpg'
+    }
+  ]
   
-
-
-  {
-    name: 'Orpheus',
-    desc: 'Team Mascot',
-    link: 'https://hackclub.com',
-    image: 'orpheus.png'
-  }
-]
+  
+ 
 
 const Team = () => {
   return (
