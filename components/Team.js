@@ -7,21 +7,16 @@ const members = [
   {
     name: 'Arav',
     desc: 'Co-Host \n Operations',
-    link: 'https://twitter.com/heyarav',
+    link: 'https://github.com/tregsthedev',
     image: 'arav.jpg'
   },
   {
     name: 'Reese',
-    desc: 'Expert',
+    desc: 'Co-host \n Operations',
     link: 'https://reeseric.ci',
     image: 'reesericci.png'
   },
-  {
-    name: 'Deven',
-    desc: ' ex Co-Host \n Operations',
-    link: 'https://devenjadhav.com',
-    image: 'deven.jpg'
-  }, 
+  
     {
     name: 'Jason',
     desc: 'Co-host/Production',
@@ -30,30 +25,14 @@ const members = [
   },
 
 
-  {
-    name: 'Warren',
-    desc: ' ex Co-Host/ops \n Development',
-    link: 'https://github.com/NebuDev14',
-    image: 'warren.png'
-  },
-  {
-    name: 'Arcade',
-    desc: ' ex Development',
-    link: 'https://github.com/l3gacyb3ta',
-    image: 'arc.jpg'
-  },
+
   {
     name: 'Arash',
     desc: 'Development',
     link: 'https://github.com/arashnrim',
     image: 'arash.jpg'
   },
-  {
-    name: 'Asa',
-    desc: ' ex  Development',
-    link: 'https://anglesideangle.github.io',
-    image: 'asa.png'
-  },
+ 
   
 
 
@@ -64,6 +43,37 @@ const members = [
     image: 'orpheus.png'
   }
 ]
+
+const former_members = [
+  {
+    name: 'Deven',
+    desc: 'Co-Host \n Operations',
+    link: 'https://devenjadhav.com',
+    image: 'deven.jpg'
+    },
+   
+  {
+    name: 'Warren',
+    desc: 'Co-Host/ops \n Development',
+    link: 'https://github.com/NebuDev14',
+    image: 'warren.png'
+  },
+  {
+    name: 'Asa',
+    desc: 'Development',
+    link: 'https://anglesideangle.github.io',
+    image: 'asa.png'
+  },
+  {
+    name: 'Arcade',
+    desc: 'Development',
+    link: 'https://github.com/l3gacyb3ta',
+    image: 'arc.jpg'
+  }
+  ]
+  
+  
+ 
 
 const Team = () => {
   return (
@@ -82,7 +92,7 @@ const Team = () => {
         >
           Slack channel
         </a>{' '}
-        and find something to help with!
+     and find something to help with!
       </h3>
       <ul className={teamStyles.teamList}>
         {members.map((member, i) => (
@@ -104,6 +114,32 @@ const Team = () => {
           </li>
         ))}
       </ul>
+      <br />
+      <h2> Former team members </h2>
+        <h3 className={homeStyles.subtitle}>
+        Thanks to our former team members that made The Orpheus Show possible!
+      </h3>
+      <ul className={teamStyles.teamList}>
+        {former_members.map((former_fmember, i) => (
+          <li className={teamStyles.teamMember} key={i}>
+            <a rel="noreferrer" href={former_fmember.link} target="_blank">
+              <Image
+                height={75}
+                width={75}
+                alt={`${former_fmember.name}'s profile picture`}
+                src={`/team-members/${former_fmember.image}`}
+                className={teamStyles.teamPFP}
+              />
+
+              <div className={teamStyles.info}>
+                <h3 className={teamStyles.teamName}>{former_fmember.name}</h3>
+                <h4 className={teamStyles.teamDesc}>{former_fmember.desc}</h4>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+  
     </div>
   )
 }
