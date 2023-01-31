@@ -12,7 +12,7 @@ const members = [
   },
   {
     name: 'Reese',
-    desc: 'Co-host /n Operations',
+    desc: 'Co-host \n Operations',
     link: 'https://reeseric.ci',
     image: 'reesericci.png'
   },
@@ -45,30 +45,31 @@ const members = [
 ]
 
 const former_members = [
-   {
-    name: 'Asa',
-    desc: ' ex  Development',
-    link: 'https://anglesideangle.github.io',
-    image: 'asa.png'
-  },
+  {
+    name: 'Deven',
+    desc: 'Co-Host \n Operations',
+    link: 'https://devenjadhav.com',
+    image: 'deven.jpg'
+    },
+   
   {
     name: 'Warren',
-    desc: ' ex Co-Host/ops \n Development',
+    desc: 'Co-Host/ops \n Development',
     link: 'https://github.com/NebuDev14',
     image: 'warren.png'
   },
   {
+    name: 'Asa',
+    desc: 'Development',
+    link: 'https://anglesideangle.github.io',
+    image: 'asa.png'
+  },
+  {
     name: 'Arcade',
-    desc: ' ex Development',
+    desc: 'Development',
     link: 'https://github.com/l3gacyb3ta',
     image: 'arc.jpg'
-  },
-    {
-    name: 'Deven',
-    desc: ' ex Co-Host \n Operations',
-    link: 'https://devenjadhav.com',
-    image: 'deven.jpg'
-    }
+  }
   ]
   
   
@@ -115,7 +116,9 @@ const Team = () => {
       </ul>
       <br />
       <h2> Former team members </h2>
-      <h3> Thanks to our amazing former team members that made The Orpheus Show possible! </h3>
+        <h3 className={homeStyles.subtitle}>
+        Thanks to our former team members that made The Orpheus Show possible!
+      </h3>
       <ul className={teamStyles.teamList}>
         {former_members.map((former_fmember, i) => (
           <li className={teamStyles.teamMember} key={i}>
