@@ -16,13 +16,6 @@ const members = [
     link: 'https://reeseric.ci',
     image: 'reesericci.png'
   },
-  
-    {
-    name: 'Jason',
-    desc: 'Co-host/Production',
-    link: 'https://jasonaa.me/',
-    image: 'jason.jpg'
-  },
 
 
 
@@ -58,6 +51,13 @@ const former_members = [
     link: 'https://github.com/NebuDev14',
     image: 'warren.png'
   },
+	  {
+    name: 'Jason',
+    desc: 'Co-host/Production',
+    link: 'https://jasonaa.me/',
+    image: 'jason.jpg'
+  },
+
   {
     name: 'Asa',
     desc: 'Development',
