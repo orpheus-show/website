@@ -4,8 +4,8 @@ import theme from '@hackclub/theme' // or '../lib/theme'
 export default function Meta({
   name = 'The Orpheus Show',
   title = 'The Orpheus Show',
-  description = 'The un-offical Podcast of Hack Club',
-  image = 'https://podcast.hackclub.com/cover.png',
+  description = 'The podcast about Hack Club and its community.',
+  image = 'https://podcast.hackclub.com/_next/image?url=%2Fcover.png&w=256&q=100',
   url = 'https://podcast.hackclub.com'
 }) {
   return (
